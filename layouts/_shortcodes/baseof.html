@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="{{ or site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="./assets/css/main.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+
+    {{ with (templates.Defer (dict "key" "global")) }}
+        {{ partial "css.html" . }}
+    {{ end }}
+
+    <title>Tinurveda</title>
+</head>
+<body>
+    <header>
+    <nav class="fixed bottom-0 w-full bg-black/40 backdrop-blur-sm border-t border-black/30 flex flex-wrap items-center justify-center pointer-coarse:p-1.5 p-1 shadow-[-1px_-4px_16px_0_rgba(0,0,0,0.3)]">
+        <a href="#o-raziskavi" class="font-semibold text-black/80 pointer-coarse:m-1.5 m-1 px-4 py-3 rounded-lg transition bg-orange-200 hover:bg-amber-100 hover:text-black/85 leading-none shadow-lg/25 border border-black/40 text-center">
+            O raziskavi
+        </a>
+        <a href="#potek-in-vsebina-predavanj" class="font-semibold text-black/80 pointer-coarse:m-1.5 m-1 px-4 py-3 rounded-lg transition bg-orange-200 hover:bg-amber-100 hover:text-black/85 leading-none shadow-lg/25 border border-black/40 text-center">
+            Potek in vsebina predavanj
+        </a>
+        <a href="#kdo-lahko-sodeluje" class="font-semibold text-black/80 pointer-coarse:m-1.5 m-1 px-4 py-3 rounded-lg transition bg-orange-200 hover:bg-amber-100 hover:text-black/85 leading-none shadow-lg/25 border border-black/40 text-center">
+            Kdo lahko sodeluje
+        </a>
+        <a href="#prijava" class="font-semibold text-black/80 pointer-coarse:m-1.5 m-1 px-4 py-3 rounded-lg transition bg-orange-200 hover:bg-amber-100 hover:text-black/85 leading-none shadow-lg/25 border border-black/40 text-center">
+            Prijavi se
+        </a>
+        <a href="#kontakt" class="font-semibold text-black/80 pointer-coarse:m-1.5 m-1 px-4 py-3 rounded-lg transition bg-orange-200 hover:bg-amber-100 hover:text-black/85 leading-none shadow-lg/25 border border-black/40 text-center">
+            Kontakt
+        </a>
+        <a href="#domov" class="font-semibold text-black/80 pointer-coarse:m-1.5 m-1 px-4 py-3 rounded-lg transition bg-orange-200 hover:bg-amber-100 hover:text-black/85 leading-none shadow-lg/25 border border-black/40 text-center">
+            Domov
+        </a>
+    </nav>
+    </header>
+    <main>
+        {{ block "main" . }}{{ end }}
+    </main>
+    <footer>
+        <p>© 2025 Tina Rupnik Pejić</p>
+    </footer>
+</body>
+</html>
