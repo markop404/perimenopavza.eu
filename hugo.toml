@@ -1,22 +1,50 @@
-baseURL = "https://example.org/"
+baseURL = "https://markopejic.com/tina/"
 languageCode = "sl-si"
+
 title = "Tinurveda"
+copyright = "© 2025 Tina Rupnik Pejić"
+
+[menus]
+    [[menus.main]]
+        name = "O raziskavi"
+        pageRef = "/#o-raziskavi"
+        weight = 0
+    [[menus.main]]
+        name = "Potek in vsebina predavanj"
+        pageRef = "/#potek-in-vsebina-predavanj"
+        weight = 1
+    [[menus.main]]
+        name = "Kdo lahko sodeluje"
+        pageRef = "/#kdo-lahko-sodeluje"
+        weight = 2
+    [[menus.main]]
+        name = "Prijavi se"
+        pageRef = "/#prijavi-se"
+        weight = 3
+    [[menus.main]]
+        name = "Kontakt"
+        pageRef = "/#kontakt"
+        weight = 4
+    [[menus.main]]
+        name = "Domov"
+        pageRef = "/"
+        weight = 5
 
 [build]
     [build.buildStats]
         enable = true
     [[build.cachebusters]]
-        source = 'assets/notwatching/hugo_stats\.json'
-        target = 'css'
+        source = "assets/notwatching/hugo_stats\.json"
+        target = "css"
     [[build.cachebusters]]
-        source = '(postcss|tailwind)\.config\.js'
-        target = 'css'
+        source = "(postcss|tailwind)\.config\.js"
+        target = "css"
 [module]
     [[module.mounts]]
-        source = 'assets'
-        target = 'assets'
+        source = "assets"
+        target = "assets"
     [[module.mounts]]
         disableWatch = true
-        source = 'hugo_stats.json'
-        target = 'assets/notwatching/hugo_stats.json'
+        source = "hugo_stats.json"
+        target = "assets/notwatching/hugo_stats.json"
 
