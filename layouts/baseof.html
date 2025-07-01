@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ or site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<html lang="{{ or site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}" class="scroll-smooth">
 <head>
     {{ with (templates.Defer (dict "key" "global")) }}
         {{ partial "css.html" . }}
@@ -7,7 +7,7 @@
 
     {{ partial "head.html" . }}
 </head>
-<body class="scroll-smooth">
+<body>
     <header>
         {{ partial "header.html" . }}
     </header>

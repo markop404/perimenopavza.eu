@@ -1,50 +1,55 @@
-baseURL = "https://markopejic.com/tina/"
-languageCode = "sl-si"
+baseURL = 'https://markopejic.com/tina/'
+languageCode = 'sl-si'
 
-title = "Tinurveda"
-copyright = "© 2025 Tina Rupnik Pejić"
+title = 'Perimenopavza & Ajurveda'
+copyright = '© 2025 Tina Rupnik Pejić'
+
 
 [menus]
     [[menus.main]]
-        name = "O raziskavi"
-        pageRef = "/#o-raziskavi"
-        weight = 0
-    [[menus.main]]
-        name = "Potek in vsebina predavanj"
-        pageRef = "/#potek-in-vsebina-predavanj"
+        name = 'O raziskavi'
+        url = '#o-raziskavi'
         weight = 1
     [[menus.main]]
-        name = "Kdo lahko sodeluje"
-        pageRef = "/#kdo-lahko-sodeluje"
+        name = 'Potek in vsebina predavanj'
+        url = '#potek-in-vsebina-predavanj'
         weight = 2
     [[menus.main]]
-        name = "Prijavi se"
-        pageRef = "/#prijavi-se"
+        name = 'Kdo lahko sodeluje'
+        url = '#kdo-lahko-sodeluje'
         weight = 3
     [[menus.main]]
-        name = "Kontakt"
-        pageRef = "/#kontakt"
+        name = 'Prijavi se'
+        url = '#prijavi-se'
         weight = 4
     [[menus.main]]
-        name = "Domov"
-        pageRef = "/"
+        name = 'Kontakt'
+        url = '#kontakt'
         weight = 5
+    [[menus.main]]
+        name = 'Domov'
+        url = '/'
+        weight = 6
 
 [build]
     [build.buildStats]
         enable = true
     [[build.cachebusters]]
-        source = "assets/notwatching/hugo_stats\.json"
-        target = "css"
+        source = 'assets/notwatching/hugo_stats\.json'
+        target = 'css'
     [[build.cachebusters]]
-        source = "(postcss|tailwind)\.config\.js"
-        target = "css"
+        source = '(postcss|tailwind)\.config\.js'
+        target = 'css'
 [module]
     [[module.mounts]]
-        source = "assets"
-        target = "assets"
+        source = 'assets'
+        target = 'assets'
     [[module.mounts]]
         disableWatch = true
-        source = "hugo_stats.json"
-        target = "assets/notwatching/hugo_stats.json"
+        source = 'hugo_stats.json'
+        target = 'assets/notwatching/hugo_stats.json'
 
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true

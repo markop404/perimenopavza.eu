@@ -1,12 +1,12 @@
 {{ with site.Menus.main }}
-    <nav class="fixed bottom-0 w-full bg-black/40 backdrop-blur-sm border-t border-black/30 flex flex-wrap items-center justify-center pointer-coarse:p-1.5 p-1 shadow-[-1px_-4px_16px_0_rgba(0,0,0,0.3)]">
+    <nav class='fixed bottom-0 w-full bg-black/40 backdrop-blur-xs border-t border-black/30 flex flex-wrap items-center justify-center pointer-coarse:p-1.5 p-1 shadow-[-1px_-4px_16px_0_rgba(0,0,0,0.3)]'>
         {{ range . }}
             {{ if $.IsMenuCurrent .Menu . }}
-                <a href="{{ .URL }}" class="font-semibold pointer-coarse:m-1.5 m-1 px-4 py-3 rounded-lg transition hover:bg-amber-100 hover:text-black/85 leading-none shadow-lg/25 border border-black/40 text-center">
+                <a href='{{ .URL }}' class='font-bold pointer-coarse:m-1.5 m-1 px-4 py-3 rounded-lg transition hover:bg-amber-100 hover:text-black/85 leading-none shadow-lg/25 border border-black/40 text-center'>
                     {{ .Name }}
                 </a>
             {{ else }}
-                <a href="{{ .URL }}" class="font-semibold text-black/80 pointer-coarse:m-1.5 m-1 px-4 py-3 rounded-lg transition bg-orange-200 hover:bg-amber-100 hover:text-black/85 leading-none shadow-lg/25 border border-black/40 text-center">
+                <a href='{{ .URL }}' class='font-bold text-black/80 pointer-coarse:m-1.5 m-1 px-4 py-3 rounded-lg transition bg-orange-200 hover:bg-amber-100 hover:text-black/85 leading-none shadow-lg/25 border border-black/40 text-center'>
                     {{ .Name }}
                 </a>
             {{ end }}
