@@ -4,32 +4,30 @@ languageCode = 'sl-si'
 title = 'Perimenopavza & Ajurveda'
 copyright = '© 2025 Tina Rupnik Pejić'
 
-
-[menus]
-    [[menus.main]]
-        name = 'O raziskavi'
-        url = '#o-raziskavi'
-        weight = 1
-    [[menus.main]]
-        name = 'Potek in vsebina predavanj'
-        url = '#potek-in-vsebina-predavanj'
-        weight = 2
-    [[menus.main]]
-        name = 'Kdo lahko sodeluje'
-        url = '#kdo-lahko-sodeluje'
-        weight = 3
-    [[menus.main]]
-        name = 'Prijavi se'
-        url = '#prijavi-se'
-        weight = 4
-    [[menus.main]]
-        name = 'Kontakt'
-        url = '#kontakt'
-        weight = 5
-    [[menus.main]]
-        name = 'Domov'
-        url = '/'
-        weight = 6
+[[menus.main]]
+    name = 'O raziskavi'
+    url = '#o-raziskavi'
+    weight = 1
+[[menus.main]]
+    name = 'Potek in vsebina predavanj'
+    url = '#potek-in-vsebina-predavanj'
+    weight = 2
+[[menus.main]]
+    name = 'Kdo lahko sodeluje'
+    url = '#kdo-lahko-sodeluje'
+    weight = 3
+[[menus.main]]
+    name = 'Prijavi se'
+    url = '#prijavi-se'
+    weight = 4
+[[menus.main]]
+    name = 'Kontakt'
+    url = '#kontakt'
+    weight = 5
+[[menus.main]]
+    name = 'Domov'
+    url = '/'
+    weight = 6
 
 [build]
     [build.buildStats]

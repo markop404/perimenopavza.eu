@@ -1,7 +1,3 @@
-+++
-draft = false
-+++
-
 # O raziskavi
 
 Raziskava z naslovom **Vpliv intervencije ajurvedskega življenjskegasloga na kakovost življenja in zdravstveno samoučinkovitost žensk vperimenopavzi** poteka v okviru magistrskega študija integrativnih zdravstvenih ved na univerzi Alma Mater Europea. Njen namen je ugotoviti učinke ajurvedskega življenjskega sloga na kakovost življenja žensk v času perimenopavze, pri čemer se osredotoča na vpliv:
@@ -24,7 +20,7 @@ Raziskave kažejo, da do 90 % žensk v tem obdobju poišče nasvet pri zdravstve
 
 Ajurveda velja za najstarejši medicinski sistem na svetu. Čeprav je nastala pred približno 5000 leti in na drugem koncu sveta, so njena globoka spoznanja o delovanju narave in človeka veljavna šedanes, za kogarkoli in kjerkoli. Učinkovitost ajurvede priznava tudi Svetovna zdravstvena organizacija.
 
-Ajurveda na perimenopavzo gleda kot na naravni prehod, ki gazaznamuje vata doša, prevladujoča v poznejših življenjskih obdobjih. Simptomi so razumljeni kot izrazi neravnovesij med tremi došami – vata, pitta in kapha. Po ajurvedskih načelih lahko spremembe življenjskega sloga, prilagojene posameznikovi edinstveni konstituciji, vzpostavijo ravnovesje, zmanjšajo simptome in izboljšajo splošno počutje. Med te intervencije sodijo prilagoditve prehrane, vsakodnevne rutine, tehnike obvladovanja stresa ter zeliščni pripravki. **Ajurvedski celostni pristop poudarja preventivo in samopomoč ter posameznika spodbuja k aktivnemu sodelovanju pri ohranjanju zdravja.**
+Ajurveda na perimenopavzo gleda kot na naravni prehod, ki ga zaznamuje vata doša, prevladujoča v poznejših življenjskih obdobjih. Simptomi so razumljeni kot izrazi neravnovesij med tremi došami – vata, pitta in kapha. Po ajurvedskih načelih lahko spremembe življenjskega sloga, prilagojene posameznikovi edinstveni konstituciji, vzpostavijo ravnovesje, zmanjšajo simptome in izboljšajo splošno počutje. Med te intervencije sodijo prilagoditve prehrane, vsakodnevne rutine, tehnike obvladovanja stresa ter zeliščni pripravki. **Ajurvedski celostni pristop poudarja preventivo in samopomoč ter posameznika spodbuja k aktivnemu sodelovanju pri ohranjanju zdravja.**
 
 Na podlagi teh izhodišč ta raziskava želi ovrednotiti ajurvedskiživljenjski slog kot dopolnilni pristop k obvladovanju perimenopavzalnihsimptomov. **Z naslavljanjem temeljnih vzrokov neravnovesja namesto posameznihsimptomov ajurveda predstavlja dragocen pristop k izboljšanju kakovostiživljenja v času perimenopavze.**
 
@@ -32,7 +28,7 @@ Na podlagi teh izhodišč ta raziskava želi ovrednotiti ajurvedskiživljenjski 
 
 Raziskava bo trajala 3 mesece, od 25. septembra do 23. decembra 2025.
 
-Po vključitvi v raziskavo in podpisu obrazca za informirano soglasjebodo udeleženke izpolnile vprašalnik, ki je sestavljen iz treh validiranih vprašalnikov: SF 36, ki meri z zdravjem povezano kakovost življenja, MRS (Menopause Rating Scale), ki ocenjujeje simptome menopavze, in PHCS (Perceived Helath Competence Scale), ki meri samoučinkovitost pri obvladovanju zdravja. Izpolnjevanje vprašalnika traja 5 do 10 minut.
+Po vključitvi v raziskavo in podpisu obrazca za informirano soglasje bodo udeleženke izpolnile vprašalnik, ki je sestavljen iz treh validiranih vprašalnikov: SF 36, ki meri z zdravjem povezano kakovost življenja, MRS (Menopause Rating Scale), ki ocenjujeje simptome menopavze, in PHCS (Perceived Helath Competence Scale), ki meri samoučinkovitost pri obvladovanju zdravja. Izpolnjevanje vprašalnika traja 5 do 10 minut.
 
 V prvih dveh tednih intervencije bodo izvedena tri predavanja preko Zoom-a, ki bodo zajemala tako **teoretična kot praktična znanja iz ajurvede**. Udeleženke bodo prejele priporočila glede prehrane, dnevne rutine in tehnik sproščanja. Teoretično in praktično osnovo bodo predstavljala učna gradiva izprograma Podiplomski certifikat iz ajurvede za zdravstvene delavce, ki ga izvajata Maharishi College of Perfect Health International in Alma Mater Europaea (ECM).
 
@@ -46,18 +42,18 @@ V prvih dveh tednih intervencije bodo izvedena tri predavanja preko Zoom-a, ki b
 
 - Prebavni ogenj: ključ do zdravja
 - Jej po svoji meri: prehrana v skladu s tvojo konstitucijo
-- Kakonastane bolezen: 7 stopenj razvoja bolezni, ki jih lahko pravočasno prepoznamo
-- Močrutine: kako nas vsakdanja struktura vrača v ravnovesje
+- Kako nastane bolezen: 7 stopenj razvoja bolezni, ki jih lahko pravočasno prepoznamo
+- Moč rutine: kako nas vsakdanja struktura vrača v ravnovesje
 
 3. **Predavanje: nedelja, 5. oktober, 19.30 – 21.00**
 
-- Razstrupljanje: ključ do prenove telesa induha
-- Tehnike pomlajevanja: Ohranite mladost invitalnost po ajurvedi
+- Razstrupljanje: ključ do prenove telesa in duha
+- Tehnike pomlajevanja: ohranite mladost in vitalnost po ajurvedi
 - Obvladovanje stresa z ajurvedskimi modrostmi
 - Telesna vadba po meri doš: gibanje, ki krepitelo in duha
 - Zdravilna moč ajurvedskih začimb in zelišč: naravna podpora zdravju
 
-Posnetki predavanj bodo na voljo za ogled tudipo izvedbi srečanj. Poleg predavanj bodo udeleženke tekom celotne intervencije prejemale dodatna gradiva (testi, kratki kvizi, recepti, ipd.), da bodo lažje vključile priporočila v svoj vsakdanjik in povečale zavezanost programu.
+Posnetki predavanj bodo na voljo za ogled tudi po izvedbi srečanj. Poleg predavanj bodo udeleženke tekom celotne intervencije prejemale dodatna gradiva (testi, kratki kvizi, recepti, ipd.), da bodo lažje vključile priporočila v svoj vsakdanjik in povečale zavezanost programu.
 
 **Po prvem predavanju** bodo udeleženke prejele spletni vprašalnik za določitev svoje konstitucije in neravnovesij
 
@@ -97,7 +93,7 @@ Sodelovanje je povsem prostovoljno. Udeleženke lahko sodelovanje kadarkoli prek
 
 Raziskava ne zbira nobenih osebnih podatkov, kot so ime, priimek,naslov, kontakt ali IP-naslovi.Za povezavo odgovorov pred in po intervenciji bodo udeleženke sameustvarile **osebno kodo**, ki temelji na nevtralnih podatkih (navodila bodovključena v vprašalnik) in ne omogoča identifikacije.Vsi zbrani podatki bodo obravnavani zaupno in uporabljeni izključno zaraziskovalne namene, v skladu s Splošnouredbo o varstvu podatkov (GDPR, EU 2016/679).
 
-Podatkine bodo povezani z nobenimi drugimi podatkovnimi bazami. Shranjeni bodo v anonimizirani obliki, kar pomeni, da iz njih ne bo mogoče prepoznati vaše identitete. Dostop do podatkov bo imel le raziskovalni tim, in sicer skladno zUredbo (EU) 2016/679 o varstvu osebnih podatkov (GDPR). Podatki bodo hranjeni **eno leto pozaključku raziskave**, nato bodo trajno izbrisani oziroma uničeni. V raziskavi ne pričakujemo nobenih tveganj za razkritje vaše identitete. Če želite uveljavljati svoje pravice na področju varstva osebnih podatkov, me lahko kontaktirate.
+Podatkine bodo povezani z nobenimi drugimi podatkovnimi bazami. Shranjeni bodo v anonimizirani obliki, kar pomeni, da iz njih ne bo mogoče prepoznati vaše identitete. Dostop do podatkov bo imel le raziskovalni tim, in sicer skladno z Uredbo (EU) 2016/679 o varstvu osebnih podatkov (GDPR). Podatki bodo hranjeni **eno leto pozaključku raziskave**, nato bodo trajno izbrisani oziroma uničeni. V raziskavi ne pričakujemo nobenih tveganj za razkritje vaše identitete. Če želite uveljavljati svoje pravice na področju varstva osebnih podatkov, me lahko kontaktirate.
 
 ## Možna tveganja in koristi
 
@@ -111,6 +107,6 @@ Finančno nadomestilo ni predvideno. Prejeli boste brezplačno izobraževanje te
 
 Raziskava je bila pregledana in odobrena s strani Etične komisije Univerze Alma Mater Europaea, Slovenska ulica 17, 2000 Maribor dne **...** pod številko **...**
 
-## Dostop dorezultatov raziskave
+## Dostop do rezultatov raziskave
 
-Po zaključku raziskave bodo udeleženkam na voljo **splošni rezultati** raziskave v povzetku, ki ne bo vključeval nobenihosebnih podatkov ali individualno prepoznavnih informacij. Če bodo rezultati raziskave pozitivni, je cilj ugotovitve širše predstaviti, in sicer prek objavin konferenc.
+Po zaključku raziskave bodo udeleženkam na voljo **splošni rezultati** raziskave v povzetku, ki ne bo vključeval nobenih osebnih podatkov ali individualno prepoznavnih informacij. Če bodo rezultati raziskave pozitivni, je cilj ugotovitve širše predstaviti, in sicer prek objav in konferenc.
