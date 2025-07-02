@@ -29,6 +29,9 @@ copyright = '© 2025 Tina Rupnik Pejić'
     url = '/'
     weight = 6
 
+[params]
+    description = ""
+
 [build]
     [build.buildStats]
         enable = true
@@ -38,6 +41,7 @@ copyright = '© 2025 Tina Rupnik Pejić'
     [[build.cachebusters]]
         source = '(postcss|tailwind)\.config\.js'
         target = 'css'
+
 [module]
     [[module.mounts]]
         source = 'assets'
