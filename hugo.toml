@@ -29,9 +29,6 @@ copyright = '© 2025 Tina Rupnik Pejić'
     url = '/'
     weight = 6
 
-[params]
-    description = ""
-
 [build]
     [build.buildStats]
         enable = true
@@ -50,10 +47,3 @@ copyright = '© 2025 Tina Rupnik Pejić'
         disableWatch = true
         source = 'hugo_stats.json'
         target = 'assets/notwatching/hugo_stats.json'
-
-[markup]
-    [markup.goldmark]
-        [markup.goldmark.renderer]
-            unsafe = true
-        [markup.goldmark.parser]
-            autoHeadingID = true
