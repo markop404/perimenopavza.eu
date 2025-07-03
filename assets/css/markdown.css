@@ -1,11 +1,15 @@
-/* .homepage_markdown h2 {
-    @apply 
+.homepage_markdown h2 {
+    @apply font-bold text-xl text-shadow-sm mt-7 mb-2
 }
 
 .homepage_markdown p {
-    @apply 
+    @apply  py-1
 }
 
 .homepage_markdown a {
-    @apply 
-} */
+    @apply text-base
+}
+
+.homepage_markdown ul {
+    @apply list-disc list-inside
+}

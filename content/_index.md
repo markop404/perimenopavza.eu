@@ -14,8 +14,8 @@ banner:
       text: "Individualno svetovanje in dragoceno znanje, s katerim boš lažje skrbela za svoje zdravje"
     - title: "Kje"
       text: "Online"
-    - title: "Začetek"
-      text: "24. september 2025"
+    - title: "Kdaj"
+      text: "24. september 2025 - 27. december 2025"
     - title: "Prijave do"
       text: "5. september (število mest je omejeno)"
 
