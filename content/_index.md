@@ -1,13 +1,12 @@
 ---
-
 banner:
   image:
-    filename: "ayurveda2.svg"
+    filename: "ayurveda.svg"
   subtitle: "Vabljena k sodelovanju v raziskavi"
   bg_class: "bg-gradient-to-br from-red-200 to-rose-400"
   text:
     - >
-      Si stara med 40 in 55 let? Doživljaš spremembe, kot so neredne menstruacije, motnje spanja, nihanje razpoloženja, vročinski oblivi, utrujenost, težave s sečnim mehurjem, manjša zbranost …?
+      Si stara med 40 in 55 let? Doživljaš spremembe, kot so neredne menstruacije, motnje spanja, nihanje razpoloženja, vročinski oblivi, utrujenost, težave s sečnim mehurjem, manjša zbranost, ipd?
     - >
       Vabim te, da sodeluješ v trimesečni raziskavi, kjer bomo raziskovali vpliv ajurvedskih priporočil na kakovost življenja v obdobju perimenopavze.
   badge:
@@ -144,5 +143,4 @@ sections:
       [t.rupnik@gmail.com](mailto:t.rupnik@gmail.com)
       [tina.rupnik@almamater.si](tina.rupnik@almamater.si)
       Mobitel: +386 40 610 033
-
 ---

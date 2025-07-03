@@ -1,49 +1,49 @@
 {{ define "main" }}
-    <!-- Banner -->
-    {{ with .Params.banner }}
-        <section class="{{ .bg_class }} w-full min-h-screen items-center justify-center flex flex-col py-10 px-5">
-            {{ with .image }}
-                <img
-                    class="max-w-100"
-                    src="{{ (resources.Get (printf "images/%s" .filename) | resources.Minify).RelPermalink }}"
-                    alt="{{ (.alt | default "Image description not available" | plainify) }}"
-                >
-            {{ end }}
-            {{ with .subtitle }}
-                <p class="">
-                    {{ . }}
-                </p>
-            {{ end }}
-            <h1 class="font-bold text-center text-3xl/9 text-black/75 text-shadow-lg max-w-2xl">
-                {{ $.Site.Title }}
-            </h1>
-            {{ range .text }}
-                <p class="">
-                    {{ . }}
-                </p>
-            {{ end }}
-            {{ range .badge }}
-                <span class="bg-white/20 px-4 py-1 mx-2 my-1 text-base font-semibold text-black/70 rounded-2xl shadow-xs shadow-black/50 text-shadow-xs border border-black/20 text-center">
-                    <b>{{ .title }}</b>: {{ .text }}
-                </span>
-            {{ end }}
-        </section>
-    {{ end }}
-    <!-- /Banner -->
+  <!-- Banner -->
+  {{ with .Params.banner }}
+    <section class="{{ .bg_class }} w-full min-h-screen items-center justify-center flex flex-col py-10 px-5">
+      {{ with .image }}
+        <img
+          class="max-w-100"
+          src="{{ (resources.Get (printf "images/%s" .filename) | resources.Minify).RelPermalink }}"
+          alt="{{ (.alt | default "Image description not available") }}"
+        >
+      {{ end }}
+      {{ with .subtitle }}
+        <p class="">
+          {{ . }}
+        </p>
+      {{ end }}
+      <h1 class="font-bold text-center text-3xl/9 text-black/75 text-shadow-lg max-w-2xl">
+          {{ $.Site.Title }}
+      </h1>
+      {{ range .text }}
+        <p class="">
+          {{ . }}
+        </p>
+      {{ end }}
+      {{ range .badge }}
+        <span class="bg-white/20 px-4 py-1 mx-2 my-1 text-base font-semibold text-black/70 rounded-2xl shadow-xs shadow-black/50 text-shadow-xs border border-black/20 text-center">
+          <b>{{ .title }}</b>: {{ .text }}
+        </span>
+      {{ end }}
+    </section>
+  {{ end }}
+  <!-- /Banner -->
     
-    <!-- Sections -->
-    {{ range .Params.sections }}
-        <section id="{{ .title | urls.Anchorize }}" class="{{ .bg_class }} ">
-            <h1 class="">
-                {{ .title }}
-            </h1>
-            <div class="homepage_markdown">
-                {{ .content | markdownify }}
-            </div>
-        </section>
-    {{ end }}
-    <!-- /Sections -->
+  <!-- Sections -->
+  {{ range .Params.sections }}
+    <section id="{{ .title | urls.Anchorize }}" class="{{ .bg_class }} ">
+      <h1 class="">
+        {{ .title }}
+      </h1>
+      <div class="homepage_markdown">
+        {{ .content | markdownify }}
+      </div>
+    </section>
+  {{ end }}
+  <!-- /Sections -->
 
-    <!-- Form -->
-    <!-- Form -->
+  <!-- Form -->
+  <!-- Form -->
 {{ end }}
