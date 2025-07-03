@@ -1,28 +1,28 @@
 ---
+
 banner:
   image:
-    name: "perimenopavza"
-    alt: "Perimenopavza"
-  subtitle: "Vabljene k sodelovanju v raziskavi"
-  bg_class: ""
+    filename: "ayurveda2.svg"
+  subtitle: "Vabljena k sodelovanju v raziskavi"
+  bg_class: "bg-gradient-to-br from-red-200 to-rose-400"
   text:
     - >
       Si stara med 40 in 55 let? Doživljaš spremembe, kot so neredne menstruacije, motnje spanja, nihanje razpoloženja, vročinski oblivi, utrujenost, težave s sečnim mehurjem, manjša zbranost …?
     - >
-      Vabim te, da sodeluješ v trimesečni raziskavi, kjer bomo raziskovali vpliv ajurvedskih priporočil (prehrana, dnevna rutina, obvladovanje stresa) na kakovost življenja v obdobju perimenopavze.
+      Vabim te, da sodeluješ v trimesečni raziskavi, kjer bomo raziskovali vpliv ajurvedskih priporočil na kakovost življenja v obdobju perimenopavze.
   badge:
     - title: "Kaj dobiš"
-      text: "Dragoceno znanje, s katerim boš lažje skrbela za svoje zdravje in individualno svetovanje"
+      text: "Individualno svetovanje in dragoceno znanje, s katerim boš lažje skrbela za svoje zdravje"
     - title: "Kje"
       text: "Online"
     - title: "Začetek"
-      text: "25. september 2025"
+      text: "24. september 2025"
     - title: "Prijave do"
       text: "5. september (število mest je omejeno)"
 
 sections:
   - title: "O raziskavi"
-    bg_class: "Kje"
+    bg_class: "bg-slate-200"
     content: >
       Raziskava z naslovom **Vpliv intervencije ajurvedskega življenjskegasloga na kakovost življenja in zdravstveno samoučinkovitost žensk vperimenopavzi** poteka v okviru magistrskega študija integrativnih zdravstvenih ved na univerzi Alma Mater Europea. Njen namen je ugotoviti učinke ajurvedskega življenjskega sloga na kakovost življenja žensk v času perimenopavze, pri čemer se osredotoča na vpliv:
 
@@ -47,9 +47,9 @@ sections:
       Ajurveda na perimenopavzo gleda kot na naravni prehod, ki ga zaznamuje vata doša, prevladujoča v poznejših življenjskih obdobjih. Simptomi so razumljeni kot izrazi neravnovesij med tremi došami – vata, pitta in kapha. Po ajurvedskih načelih lahko spremembe življenjskega sloga, prilagojene posameznikovi edinstveni konstituciji, vzpostavijo ravnovesje, zmanjšajo simptome in izboljšajo splošno počutje. Med te intervencije sodijo prilagoditve prehrane, vsakodnevne rutine, tehnike obvladovanja stresa ter zeliščni pripravki. **Ajurvedski celostni pristop poudarja preventivo in samopomoč ter posameznika spodbuja k aktivnemu sodelovanju pri ohranjanju zdravja.**
 
       Na podlagi teh izhodišč ta raziskava želi ovrednotiti ajurvedski življenjski slog kot dopolnilni pristop k obvladovanju perimenopavzalnih simptomov. **Z naslavljanjem temeljnih vzrokov neravnovesja namesto posameznih simptomov ajurveda predstavlja dragocen pristop k izboljšanju kakovosti življenja v času perimenopavze.**
-  
+
   - title: "Potek in vsebina predavanj"
-    bg_class: ""
+    bg_class: "bg-slate-300"
     content: >
       Raziskava bo trajala 3 mesece, od 25. septembra do 23. decembra 2025.
 
@@ -86,18 +86,14 @@ sections:
 
       **Po treh mesecih** (23. decembra) bodo udeleženke prejele enak vprašalnik kot na začetku, tokrat z dodatnimi tremi kratkimi vprašanji kvalitativnega tipa. Udeleženke lahko v primeru kakršnekoli dodatne potrebe, ki bi se pojavila med raziskavo, [kontaktirajo izvajalko raziskave Tino Rupnik Pejić](#kontakt).
 
-
   - title: "Kdo lahko sodeluje"
-    bg_class: ""
+    bg_class: "bg-slate-400"
     content: >
       V raziskavi lahko sodelujejo ženske, ki izpolnjujejo naslednje pogoje:
 
       - So stare med 40 in 55 let,
-
       - Imajo vsaj tri značilne simptoma perimenopavze, kot so neredne menstruacije, motnje spanja, nihanje razpoloženja, vročinski oblivi, fizična in psihična izčrpanost, težave s sečnim mehurjem, manjša zbranost, spremembe v libidu, občutek suhe nožnice, občutek razbijanja srca.
-
       - So pripravljene **tri mesece izvajati priporočila ajurvedskega življenjskega sloga**, kar vključuje predvsem prilagoditev prehrane glede na telesno konstitucijo in vzpostavitev ustrezne dnevne rutine (npr. odhod v posteljo pred 22.00).
-
       - Dajo svoje prostovoljno soglasje za sodelovanje v raziskavi.
 
       ## Kdo ne more sodelovati v raziskavi?
@@ -105,7 +101,6 @@ sections:
       V raziskavi ne morejo sodelovati ženske, ki izpolnjujejo katerega odnaslednjih pogojev:
 
       - Imajo zdravstvene težave, ki bi lahko vplivale na varnost sodelovanja v raziskavi (npr. hude hormonske motnje, resne bolezni srca in ožilja ali druge kronične bolezni, ki zahtevajo stalno medicinsko obravnavo),
-
       - Uporabljajo hormonsko terapijo.
 
       ## Prostovoljnost in možnost odstopa
@@ -113,7 +108,7 @@ sections:
       Sodelovanje je povsem prostovoljno. Udeleženke lahko sodelovanje kadarkoli prekinejo brez kakršnih koli posledic ali pojasnil.
 
   - title: "Legal notice"
-    bg_class: ""
+    bg_class: "bg-slate-500"
     content: >
       ## Zagotavljanje anonimnosti in varstvo podatkov
 
@@ -138,7 +133,7 @@ sections:
       Po zaključku raziskave bodo udeleženkam na voljo **splošni rezultati** raziskave v povzetku, ki ne bo vključeval nobenih osebnih podatkov ali individualno prepoznavnih informacij. Če bodo rezultati raziskave pozitivni, je cilj ugotovitve širše predstaviti, in sicer prek objav in konferenc.
 
   - title: "Kontakt"
-    bg_class: ""
+    bg_class: "bg-slate-600"
     content: >
       Raziskavo vodim 
       Tina Rupnik Pejić, certificirana svetovalka Maharishi Ayurvede
