@@ -1,5 +1,4 @@
 ---
-
 banner:
   image:
     name: "perimenopavza"
@@ -21,7 +20,7 @@ banner:
     - title: "Prijave do"
       text: "5. september (število mest je omejeno)"
 
-section:
+sections:
   - title: "O raziskavi"
     bg_class: "Kje"
     content: >

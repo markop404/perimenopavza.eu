@@ -1,6 +1,5 @@
 {{ define "main" }}
-    
-    <!-- Landing page -->
+    <!-- Banner -->
     {{ with .Params.banner }}
         {{ with .image }}
             <img
@@ -29,10 +28,10 @@
             </span>
         {{ end }}
     {{ end }}
-    <!-- /Landing page -->
+    <!-- /Banner -->
     
     <!-- Sections -->
-    {{ range .Params.section }}
+    {{ range .Params.sections }}
         <section id="{{ .title | urls.Anchorize }}" class="{{ .bg_class }} ">
             <h1 class="">
                 {{ .title }}
@@ -46,5 +45,4 @@
 
     <!-- Form -->
     <!-- Form -->
-
 {{ end }}
