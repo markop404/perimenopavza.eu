@@ -13,7 +13,7 @@ banner:
     - title: "Kje"
       text: "Online"
     - title: "Kdaj"
-      text: "24. september 2025 - 27. december 2025"
+      text: "24. september - 23. december 2025"
     - title: "Prijave do"
       text: "5. september (število mest je omejeno)"
 
@@ -52,7 +52,7 @@ sections:
 
       V prvih dveh tednih intervencije bodo izvedena tri predavanja preko Zoom-a, ki bodo zajemala tako **teoretična kot praktična znanja iz ajurvede**. Udeleženke bodo prejele priporočila glede prehrane, dnevne rutine in tehnik sproščanja. Teoretično in praktično osnovo bodo predstavljala učna gradiva iz programa Podiplomski certifikat iz ajurvede za zdravstvene delavce, ki ga izvajata Maharishi College of Perfect Health International in Alma Mater Europaea (ECM).
 
-      1\. **Predavanje 1: sreda, 24. september, 19.30 – 21.00**
+      1\. **Predavanje: sreda, 24. september, 19.30 – 21.00**
 
       - Kaj se dogaja z mano? Razumevanje perimenopavze skozi sodobno in ajurvedsko znanje
       - Principi Vata, Pitta in Kapha v človeški fiziologiji in naravi
@@ -105,13 +105,13 @@ sections:
     content: |
       ## Zagotavljanje anonimnosti in varstvo podatkov
 
-      Raziskava ne zbira nobenih osebnih podatkov, kot so ime, priimek,naslov, kontakt ali IP-naslovi.Za povezavo odgovorov pred in po intervenciji bodo udeleženke sameustvarile **osebno kodo**, ki temelji na nevtralnih podatkih (navodila bodovključena v vprašalnik) in ne omogoča identifikacije.Vsi zbrani podatki bodo obravnavani zaupno in uporabljeni izključno zaraziskovalne namene, v skladu s Splošnouredbo o varstvu podatkov (GDPR, EU 2016/679).
+      Raziskava ne zbira nobenih osebnih podatkov, kot so ime, priimek, naslov, kontakt ali IP-naslovi. Za povezavo odgovorov pred in po intervenciji bodo udeleženke same ustvarile **osebno kodo**, ki temelji na nevtralnih podatkih (navodila bodo vključena v vprašalnik) in ne omogoča identifikacije. Vsi zbrani podatki bodo obravnavani zaupno in uporabljeni izključno za raziskovalne namene, v skladu s Splošno uredbo o varstvu podatkov (GDPR, EU 2016/679).
 
       Podatkine bodo povezani z nobenimi drugimi podatkovnimi bazami. Shranjeni bodo v anonimizirani obliki, kar pomeni, da iz njih ne bo mogoče prepoznati vaše identitete. Dostop do podatkov bo imel le raziskovalni tim, in sicer skladno z Uredbo (EU) 2016/679 o varstvu osebnih podatkov (GDPR). Podatki bodo hranjeni **eno leto pozaključku raziskave**, nato bodo trajno izbrisani oziroma uničeni. V raziskavi ne pričakujemo nobenih tveganj za razkritje vaše identitete. Če želite uveljavljati svoje pravice na področju varstva osebnih podatkov, me lahko kontaktirate.
 
       ## Možna tveganja in koristi
 
-      Raziskava ne vključuje medicinskih postopkov in ne nadomešča zdravstvene obravnave. Tveganj za vaše zdravje ni. Lahko pa pričakujete pozitiven vpliv na počutje terveč znanja o podpori v času perimenopavze.
+      Raziskava ne vključuje medicinskih postopkov in ne nadomešča zdravstvene obravnave. Tveganj za vaše zdravje ni. Lahko pa pričakujete pozitiven vpliv na počutje ter več znanja o podpori v času perimenopavze.
 
       ## Nadomestilo
 
