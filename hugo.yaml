@@ -3,7 +3,7 @@ languageCode: "sl-si"
 title: "Perimenopavza in ajurveda"
 copyright: "© 2025 Tina Rupnik Pejić"
 menus:
-  main:
+  home:
     - name: "O raziskavi"
       url: "#o-raziskavi"
       weight: 1
