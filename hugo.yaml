@@ -16,12 +16,16 @@ menus:
     - name: "Prijavi se"
       url: "#prijavi-se"
       weight: 4
+      params:
+        important: true
     - name: "Kontakt"
       url: "#kontakt"
       weight: 5
     - name: "Domov"
       url: "#"
       weight: 6
+params:
+  bg_class: "bg-gradient-to-r from-red-100 via-rose-200 to-red-100"
 build:
   buildStats:
     enable: true

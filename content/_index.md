@@ -3,12 +3,10 @@ banner:
   image:
     filename: "ayurveda.svg"
   subtitle: "Vabljena k sodelovanju v raziskavi"
-  bg_class: "bg-gradient-to-br from-red-200 to-rose-400"
+  bg_class: "bg-gradient-to-br from-amber-200 to-rose-400"
   text:
-    - >
-      Si stara med 40 in 55 let? Doživljaš spremembe, kot so neredne menstruacije, motnje spanja, nihanje razpoloženja, vročinski oblivi, utrujenost, težave s sečnim mehurjem, manjša zbranost, ipd?
-    - >
-      Vabim te, da sodeluješ v trimesečni raziskavi, kjer bomo raziskovali vpliv ajurvedskih priporočil na kakovost življenja v obdobju perimenopavze.
+    - "Si stara med 40 in 55 let? Doživljaš spremembe, kot so neredne menstruacije, motnje spanja, nihanje razpoloženja, vročinski oblivi, utrujenost, težave s sečnim mehurjem, manjša zbranost, ipd?"
+    - "Vabim te, da sodeluješ v trimesečni raziskavi, kjer bomo raziskovali vpliv ajurvedskih priporočil na kakovost življenja v obdobju perimenopavze."
   badge:
     - title: "Kaj dobiš"
       text: "Individualno svetovanje in dragoceno znanje, s katerim boš lažje skrbela za svoje zdravje"
@@ -21,8 +19,7 @@ banner:
 
 sections:
   - title: "O raziskavi"
-    bg_class: "bg-slate-200"
-    content: >
+    content: |
       Raziskava z naslovom **Vpliv intervencije ajurvedskega življenjskegasloga na kakovost življenja in zdravstveno samoučinkovitost žensk vperimenopavzi** poteka v okviru magistrskega študija integrativnih zdravstvenih ved na univerzi Alma Mater Europea. Njen namen je ugotoviti učinke ajurvedskega življenjskega sloga na kakovost življenja žensk v času perimenopavze, pri čemer se osredotoča na vpliv:
 
       - na menopavzne simptome,
@@ -48,28 +45,27 @@ sections:
       Na podlagi teh izhodišč ta raziskava želi ovrednotiti ajurvedski življenjski slog kot dopolnilni pristop k obvladovanju perimenopavzalnih simptomov. **Z naslavljanjem temeljnih vzrokov neravnovesja namesto posameznih simptomov ajurveda predstavlja dragocen pristop k izboljšanju kakovosti življenja v času perimenopavze.**
 
   - title: "Potek in vsebina predavanj"
-    bg_class: "bg-slate-300"
-    content: >
+    content: |
       Raziskava bo trajala 3 mesece, od 25. septembra do 23. decembra 2025.
 
       Po vključitvi v raziskavo in podpisu obrazca za informirano soglasje bodo udeleženke izpolnile vprašalnik, ki je sestavljen iz treh validiranih vprašalnikov: SF 36, ki meri z zdravjem povezano kakovost življenja, MRS (Menopause Rating Scale), ki ocenjujeje simptome menopavze, in PHCS (Perceived Helath Competence Scale), ki meri samoučinkovitost pri obvladovanju zdravja. Izpolnjevanje vprašalnika traja približno 10 minut.
 
       V prvih dveh tednih intervencije bodo izvedena tri predavanja preko Zoom-a, ki bodo zajemala tako **teoretična kot praktična znanja iz ajurvede**. Udeleženke bodo prejele priporočila glede prehrane, dnevne rutine in tehnik sproščanja. Teoretično in praktično osnovo bodo predstavljala učna gradiva iz programa Podiplomski certifikat iz ajurvede za zdravstvene delavce, ki ga izvajata Maharishi College of Perfect Health International in Alma Mater Europaea (ECM).
 
-      1. **Predavanje: sreda, 24. september, 19.30 – 21.00**
+      1\. **Predavanje 1: sreda, 24. september, 19.30 – 21.00**
 
       - Kaj se dogaja z mano? Razumevanje perimenopavze skozi sodobno in ajurvedsko znanje
       - Principi Vata, Pitta in Kapha v človeški fiziologiji in naravi
       - Osnovna načela zdravljenja in uravnoteženja doš
 
-      2. **Predavanje: torek, 30. september, 19.30 – 21.00**
+      2\. **Predavanje: torek, 30. september, 19.30 – 21.00**
 
       - Prebavni ogenj: ključ do zdravja
       - Jej po svoji meri: prehrana v skladu s tvojo konstitucijo
       - Kako nastane bolezen: 6 stopenj razvoja bolezni, ki jih lahko pravočasno prepoznamo
       - Moč rutine: kako nas vsakdanja struktura vrača v ravnovesje
 
-      3. **Predavanje: nedelja, 5. oktober, 19.30 – 21.00**
+      3\. **Predavanje: nedelja, 5. oktober, 19.30 – 21.00**
 
       - Razstrupljanje: ključ do prenove telesa in duha
       - Tehnike pomlajevanja: ohranite mladost in vitalnost po ajurvedi
@@ -86,8 +82,7 @@ sections:
       **Po treh mesecih** (23. decembra) bodo udeleženke prejele enak vprašalnik kot na začetku, tokrat z dodatnimi tremi kratkimi vprašanji kvalitativnega tipa. Udeleženke lahko v primeru kakršnekoli dodatne potrebe, ki bi se pojavila med raziskavo, [kontaktirajo izvajalko raziskave Tino Rupnik Pejić](#kontakt).
 
   - title: "Kdo lahko sodeluje"
-    bg_class: "bg-slate-400"
-    content: >
+    content: |
       V raziskavi lahko sodelujejo ženske, ki izpolnjujejo naslednje pogoje:
 
       - So stare med 40 in 55 let,
@@ -106,9 +101,8 @@ sections:
 
       Sodelovanje je povsem prostovoljno. Udeleženke lahko sodelovanje kadarkoli prekinejo brez kakršnih koli posledic ali pojasnil.
 
-  - title: "Legal notice"
-    bg_class: "bg-slate-500"
-    content: >
+  - title: "Drugo"
+    content: |
       ## Zagotavljanje anonimnosti in varstvo podatkov
 
       Raziskava ne zbira nobenih osebnih podatkov, kot so ime, priimek,naslov, kontakt ali IP-naslovi.Za povezavo odgovorov pred in po intervenciji bodo udeleženke sameustvarile **osebno kodo**, ki temelji na nevtralnih podatkih (navodila bodovključena v vprašalnik) in ne omogoča identifikacije.Vsi zbrani podatki bodo obravnavani zaupno in uporabljeni izključno zaraziskovalne namene, v skladu s Splošnouredbo o varstvu podatkov (GDPR, EU 2016/679).
@@ -130,17 +124,16 @@ sections:
       ## Dostop do rezultatov raziskave
 
       Po zaključku raziskave bodo udeleženkam na voljo **splošni rezultati** raziskave v povzetku, ki ne bo vključeval nobenih osebnih podatkov ali individualno prepoznavnih informacij. Če bodo rezultati raziskave pozitivni, je cilj ugotovitve širše predstaviti, in sicer prek objav in konferenc.
+  
+  - title: "Prijavi se"
+    content: "Prijava trenutno še ni mogoča."
 
   - title: "Kontakt"
-    bg_class: "bg-slate-600"
-    content: >
-      Raziskavo vodim 
-      Tina Rupnik Pejić, certificirana svetovalka Maharishi Ayurvede
-      pod mentorstvom asist. prof. dr. Gordane Marković
-      na univerzi Alma Mater Europea Maribor, smer Integrativne zdravstvene vede
+    content: |
+      Raziskavo **vodim Tina Rupnik Pejić**, certificirana svetovalka Maharishi Ayurvede pod mentorstvom asist. prof. dr. Gordane Marković na **univerzi Alma Mater Europea** Maribor, smer Integrativne zdravstvene vede.
 
-      Če imate vprašanja v zvezi z raziskavo, mi lahko pišete ali pokličete:
-      [t.rupnik@gmail.com](mailto:t.rupnik@gmail.com)
-      [tina.rupnik@almamater.si](tina.rupnik@almamater.si)
-      Mobitel: +386 40 610 033
+      Če imate vprašanja v zvezi z raziskavo, mi lahko pišete ali me pokličete:
+
+      **E-pošta**: [tina.rupnik@almamater.si](mailto:tina.rupnik@almamater.si)  
+      **Tel**: [+386 40 610 033](tel:+38640610033)
 ---
