@@ -107,7 +107,7 @@ sections:
 
       Raziskava ne zbira nobenih osebnih podatkov, kot so ime, priimek, naslov, kontakt ali IP-naslovi. Za povezavo odgovorov pred in po intervenciji bodo udeleženke same ustvarile **osebno kodo**, ki temelji na nevtralnih podatkih (navodila bodo vključena v vprašalnik) in ne omogoča identifikacije. Vsi zbrani podatki bodo obravnavani zaupno in uporabljeni izključno za raziskovalne namene, v skladu s Splošno uredbo o varstvu podatkov (GDPR, EU 2016/679).
 
-      Podatkine bodo povezani z nobenimi drugimi podatkovnimi bazami. Shranjeni bodo v anonimizirani obliki, kar pomeni, da iz njih ne bo mogoče prepoznati vaše identitete. Dostop do podatkov bo imel le raziskovalni tim, in sicer skladno z Uredbo (EU) 2016/679 o varstvu osebnih podatkov (GDPR). Podatki bodo hranjeni **eno leto pozaključku raziskave**, nato bodo trajno izbrisani oziroma uničeni. V raziskavi ne pričakujemo nobenih tveganj za razkritje vaše identitete. Če želite uveljavljati svoje pravice na področju varstva osebnih podatkov, me lahko kontaktirate.
+      Podatki ne bodo povezani z nobenimi drugimi podatkovnimi bazami. Shranjeni bodo v anonimizirani obliki, kar pomeni, da iz njih ne bo mogoče prepoznati vaše identitete. Dostop do podatkov bo imel le raziskovalni tim, in sicer skladno z Uredbo (EU) 2016/679 o varstvu osebnih podatkov (GDPR). Podatki bodo hranjeni **eno leto pozaključku raziskave**, nato bodo trajno izbrisani oziroma uničeni. V raziskavi ne pričakujemo nobenih tveganj za razkritje vaše identitete. Če želite uveljavljati svoje pravice na področju varstva osebnih podatkov, me lahko kontaktirate.
 
       ## Možna tveganja in koristi
 
