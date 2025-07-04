@@ -1,9 +1,0 @@
-{{ with site.Menus.home }}
-  <nav class="fixed bottom-0 w-full bg-black/40 backdrop-blur-xs border-t border-black/30 flex flex-wrap items-center justify-center p-1 shadow-[-1px_-4px_16px_0_rgba(0,0,0,0.3)]">
-    {{ range . }}
-      <a href="{{ .URL }}" class="{{ if .Params.important }}animate-pulse hover:animate-none {{ end }}font-bold text-black/80 m-1 px-4 py-3 rounded-lg transition bg-orange-200 hover:bg-amber-100 hover:text-black/85 leading-none shadow-lg/25 border border-black/45 text-center">
-        {{ .Name }}
-      </a>
-    {{ end }}
-  </nav>
-{{ end }}

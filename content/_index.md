@@ -2,25 +2,28 @@
 banner:
   image:
     filename: "ayurveda.svg"
-  subtitle: "Vabljena k sodelovanju v raziskavi"
-  bg_class: "bg-gradient-to-br from-amber-200 to-rose-400"
+  subtitle: "Vabljene k sodelovanju v raziskavi"
   text:
     - "Si stara med 40 in 55 let? Doživljaš spremembe, kot so neredne menstruacije, motnje spanja, nihanje razpoloženja, vročinski oblivi, utrujenost, težave s sečnim mehurjem, manjša zbranost, ipd?"
     - "Vabim te, da sodeluješ v trimesečni raziskavi, kjer bomo raziskovali vpliv ajurvedskih priporočil na kakovost življenja v obdobju perimenopavze."
   badge:
     - title: "Kaj dobiš"
-      text: "Individualno svetovanje in dragoceno znanje, s katerim boš lažje skrbela za svoje zdravje"
+      text: |
+        - Dragoceno znanje, s katerim boš lažje skrbela za svoje zdravje
+        - Individualno svetovanje
     - title: "Kje"
-      text: "Online"
+      text: "Prek spleta"
     - title: "Kdaj"
-      text: "24. september - 23. december 2025"
+      text: |
+        24\. september - 23\. december 2025
     - title: "Prijave do"
-      text: "5. september (število mest je omejeno)"
+      text: |
+        5\. september (število mest je omejeno)
 
 sections:
   - title: "O raziskavi"
     content: |
-      Raziskava z naslovom **Vpliv intervencije ajurvedskega življenjskegasloga na kakovost življenja in zdravstveno samoučinkovitost žensk vperimenopavzi** poteka v okviru magistrskega študija integrativnih zdravstvenih ved na univerzi Alma Mater Europea. Njen namen je ugotoviti učinke ajurvedskega življenjskega sloga na kakovost življenja žensk v času perimenopavze, pri čemer se osredotoča na vpliv:
+      Raziskava z naslovom **Vpliv intervencije ajurvedskega življenjskega sloga na kakovost življenja in zdravstveno samoučinkovitost žensk v perimenopavzi** poteka v okviru magistrskega študija integrativnih zdravstvenih ved na univerzi Alma Mater Europea. Njen namen je ugotoviti učinke ajurvedskega življenjskega sloga na kakovost življenja žensk v času perimenopavze, pri čemer se osredotoča na vpliv:
 
       - na menopavzne simptome,
       - na zdravje in dobro počutje,
@@ -46,7 +49,7 @@ sections:
 
   - title: "Potek in vsebina predavanj"
     content: |
-      Raziskava bo trajala 3 mesece, od 25. septembra do 23. decembra 2025.
+      Raziskava bo trajala 3 mesece, od 24. septembra do 23. decembra 2025.
 
       Po vključitvi v raziskavo in podpisu obrazca za informirano soglasje bodo udeleženke izpolnile vprašalnik, ki je sestavljen iz treh validiranih vprašalnikov: SF 36, ki meri z zdravjem povezano kakovost življenja, MRS (Menopause Rating Scale), ki ocenjujeje simptome menopavze, in PHCS (Perceived Helath Competence Scale), ki meri samoučinkovitost pri obvladovanju zdravja. Izpolnjevanje vprašalnika traja približno 10 minut.
 

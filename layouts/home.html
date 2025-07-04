@@ -1,6 +1,14 @@
 {{ define "main" }}
   <!-- Nav bar -->
-  {{ partial "home_navbar.html" . }}
+  {{ with site.Menus.home }}
+    <nav class="fixed bottom-0 w-full bg-black/40 backdrop-blur-xs border-t border-black/30 flex flex-wrap items-center justify-center p-1 shadow-[-1px_-4px_16px_0_rgba(0,0,0,0.3)]">
+      {{ range . }}
+        <a href="{{ .URL }}" class="{{ if .Params.highlight }}animate-pulse hover:animate-none {{ end }}font-bold text-black/80 m-1 px-4 py-3 rounded-lg transition bg-orange-200 hover:bg-amber-100 hover:text-black/90 leading-none shadow-lg/25 border border-black/45 text-center">
+          {{ .Name }}
+        </a>
+      {{ end }}
+    </nav>
+  {{ end }}
   <!-- /Nav bar -->
 
   <!-- Banner -->
@@ -18,12 +26,12 @@
           {{ . }}
         </p>
       {{ end }}
-      <h1 class="font-bold text-center text-4xl text-black/80 text-shadow-md mb-6 max-w-4xl">
+      <h1 class="font-extrabold text-center text-[2.5rem] text-black/80 text-shadow-md mb-4 max-w-4xl leading-10">
           {{ $.Site.Title }}
       </h1>
       {{ with .text }}
         {{ range . }}
-          <p class="text-center py-1 max-w-4xl text-shadow-xs text-black/80">
+          <p class="text-center py-1 max-w-4xl text-shadow-xs text-black/80 text-lg">
             {{ . }}
           </p>
         {{ end }}
@@ -31,8 +39,9 @@
       {{ with .badge }}
         <div class="items-center justify-center flex flex-wrap mt-8 max-w-4xl">
           {{ range . }}
-            <span class="bg-white/15 px-4 py-1 mx-1.5 my-1 text-black/80 rounded-2xl shadow-xs shadow-black/30 text-shadow-xs border border-black/20 text-center">
-              <b>{{ .title }}</b>: {{ .text }}
+            <span class="bg-white/15 px-4 py-1 mx-1.5 my-1 text-black/80 rounded-xl shadow-xs shadow-black/30 text-shadow-xs border border-black/20 text-center text-lg badge_markdown">
+              <b>{{ .title }}</b>:
+              {{ .text | markdownify }}
             </span>
           {{ end }}
         </div>

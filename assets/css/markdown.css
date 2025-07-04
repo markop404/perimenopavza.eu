@@ -1,13 +1,13 @@
 .homepage_markdown h2 {
-    @apply font-bold text-xl mt-10 mb-2 text-shadow-xs text-black/85
+    @apply font-bold text-2xl mt-10 mb-2 text-shadow-xs text-black/80
 }
 
 .homepage_markdown p {
-    @apply  py-2 leading-[1.8rem] text-shadow-xs text-black/85
+    @apply  py-2 leading-8 text-shadow-xs text-black/80 text-lg
 }
 
 .homepage_markdown a {
-    @apply text-sky-900 underline text-shadow-xs
+    @apply text-sky-900 underline
 }
 
 .homepage_markdown ul {
@@ -15,5 +15,9 @@
 }
 
 .homepage_markdown li {
-    @apply leading-[1.8rem] text-black/85 text-shadow-xs
+    @apply leading-8 text-black/80 text-shadow-xs text-lg
+}
+
+.badge_markdown ul {
+    @apply list-disc list-inside
 }

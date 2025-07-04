@@ -17,7 +17,7 @@ menus:
       url: "#prijavi-se"
       weight: 4
       params:
-        important: true
+        highlight: true
     - name: "Kontakt"
       url: "#kontakt"
       weight: 5
