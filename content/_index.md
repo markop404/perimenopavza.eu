@@ -2,7 +2,7 @@
 banner:
   image:
     filename: "ayurveda.svg"
-  subtitle: "Vabljene k sodelovanju v raziskavi"
+  subtitle: "Vabljena k sodelovanju v raziskavi"
   text:
     - "Si stara med 40 in 55 let? Doživljaš spremembe, kot so neredne menstruacije, motnje spanja, nihanje razpoloženja, vročinski oblivi, utrujenost, težave s sečnim mehurjem, manjša zbranost, ipd?"
     - "Vabim te, da sodeluješ v trimesečni raziskavi, kjer bomo raziskovali vpliv ajurvedskih priporočil na kakovost življenja v obdobju perimenopavze."
@@ -33,7 +33,7 @@ sections:
 
       Perimenopavza oziroma menopavzni prehod je naravno prehodno obdobje v življenju ženske, ki običajno nastopi med 40. in 50. letom starosti. Povprečno traja okoli 5 let, pri nekaterih ženskah lahko traja tudi 10 let. Začne se s prvimi spremembami v menstrualnem ciklu in se konča 12 mesecev po zadnji menstruaciji.
 
-      To obdobje spremljajo hormonske spremembe in številni telesni ter čustveni znaki, kot so neredne menstruacije, motnje spanja, nihanja razpoloženja, vročinski valovi, težave s koncentracijo in druge spremembe. Tetežave lahko pomembno vplivajo na kakovost življenja.
+      To obdobje spremljajo hormonske spremembe in številni telesni ter čustveni znaki, kot so neredne menstruacije, motnje spanja, nihanja razpoloženja, vročinski valovi, težave s koncentracijo in druge spremembe. Te težave lahko pomembno vplivajo na kakovost življenja.
 
       Raziskave kažejo, da do 90 % žensk v tem obdobju poišče nasvet pri zdravstvenem osebju glede lajšanja simptomov, kar kaže na široko razširjenost in pomembnost težav v perimenopavzi. Svetovna zdravstvena organizacija poudarja, da je ustrezna podpora v tem življenjskem obdobju ključnega pomena za zdravo staranje žensk.
 
@@ -41,7 +41,7 @@ sections:
 
       ## Ajurveda
 
-      Ajurveda velja za najstarejši medicinski sistem na svetu. Čeprav je nastala pred približno 5000 leti in na drugem koncu sveta, so njena globoka spoznanja o delovanju narave in človeka veljavna šedanes, za kogarkoli in kjerkoli. Učinkovitost ajurvede priznava tudi Svetovna zdravstvena organizacija.
+      Ajurveda velja za najstarejši medicinski sistem na svetu. Čeprav je nastala pred približno 5000 leti in na drugem koncu sveta, so njena globoka spoznanja o delovanju narave in človeka veljavna še danes, za kogarkoli in kjerkoli. Učinkovitost ajurvede priznava tudi Svetovna zdravstvena organizacija.
 
       Ajurveda na perimenopavzo gleda kot na naravni prehod, ki ga zaznamuje vata doša, prevladujoča v poznejših življenjskih obdobjih. Simptomi so razumljeni kot izrazi neravnovesij med tremi došami – vata, pitta in kapha. Po ajurvedskih načelih lahko spremembe življenjskega sloga, prilagojene posameznikovi edinstveni konstituciji, vzpostavijo ravnovesje, zmanjšajo simptome in izboljšajo splošno počutje. Med te intervencije sodijo prilagoditve prehrane, vsakodnevne rutine, tehnike obvladovanja stresa ter zeliščni pripravki. **Ajurvedski celostni pristop poudarja preventivo in samopomoč ter posameznika spodbuja k aktivnemu sodelovanju pri ohranjanju zdravja.**
 
@@ -55,20 +55,20 @@ sections:
 
       V prvih dveh tednih intervencije bodo izvedena tri predavanja preko Zoom-a, ki bodo zajemala tako **teoretična kot praktična znanja iz ajurvede**. Udeleženke bodo prejele priporočila glede prehrane, dnevne rutine in tehnik sproščanja. Teoretično in praktično osnovo bodo predstavljala učna gradiva iz programa Podiplomski certifikat iz ajurvede za zdravstvene delavce, ki ga izvajata Maharishi College of Perfect Health International in Alma Mater Europaea (ECM).
 
-      1\. **Predavanje: sreda, 24. september, 19.30 – 21.00**
+      1\. **Predavanje: sreda, 24. september, 19.00 – 20.30**
 
       - Kaj se dogaja z mano? Razumevanje perimenopavze skozi sodobno in ajurvedsko znanje
       - Principi Vata, Pitta in Kapha v človeški fiziologiji in naravi
       - Osnovna načela zdravljenja in uravnoteženja doš
 
-      2\. **Predavanje: torek, 30. september, 19.30 – 21.00**
+      2\. **Predavanje: torek, 30. september, 19.00 – 20.30**
 
       - Prebavni ogenj: ključ do zdravja
       - Jej po svoji meri: prehrana v skladu s tvojo konstitucijo
       - Kako nastane bolezen: 6 stopenj razvoja bolezni, ki jih lahko pravočasno prepoznamo
       - Moč rutine: kako nas vsakdanja struktura vrača v ravnovesje
 
-      3\. **Predavanje: nedelja, 5. oktober, 19.30 – 21.00**
+      3\. **Predavanje: nedelja, 5. oktober, 19.00 – 20.30**
 
       - Razstrupljanje: ključ do prenove telesa in duha
       - Tehnike pomlajevanja: ohranite mladost in vitalnost po ajurvedi
@@ -95,7 +95,7 @@ sections:
 
       ## Kdo ne more sodelovati v raziskavi?
 
-      V raziskavi ne morejo sodelovati ženske, ki izpolnjujejo katerega odnaslednjih pogojev:
+      V raziskavi ne morejo sodelovati ženske, ki izpolnjujejo katerega od naslednjih pogojev:
 
       - Imajo zdravstvene težave, ki bi lahko vplivale na varnost sodelovanja v raziskavi (npr. hude hormonske motnje, resne bolezni srca in ožilja ali druge kronične bolezni, ki zahtevajo stalno medicinsko obravnavo),
       - Uporabljajo hormonsko terapijo.
