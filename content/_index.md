@@ -4,7 +4,7 @@ banner:
     filename: "ayurveda.svg"
   subtitle: "Vabljena k sodelovanju v raziskavi"
   text:
-    - "Si stara med 40 in 55 let? Doživljaš spremembe, kot so neredne menstruacije, motnje spanja, nihanje razpoloženja, vročinski oblivi, utrujenost, težave s sečnim mehurjem, manjša zbranost, ipd?"
+    - "Si stara med 40 in 55 let? Doživljaš spremembe, kot so neredne menstruacije, motnje spanja, nihanje razpoloženja, vročinski oblivi, utrujenost, težave s sečnim mehurjem, manjša zbranost ipd?"
     - "Vabim te, da sodeluješ v trimesečni raziskavi, kjer bomo raziskovali vpliv ajurvedskih priporočil na kakovost življenja v obdobju perimenopavze."
   badge:
     - title: "Kaj dobiš"
@@ -37,7 +37,7 @@ sections:
 
       Raziskave kažejo, da do 90 % žensk v tem obdobju poišče nasvet pri zdravstvenem osebju glede lajšanja simptomov, kar kaže na široko razširjenost in pomembnost težav v perimenopavzi. Svetovna zdravstvena organizacija poudarja, da je ustrezna podpora v tem življenjskem obdobju ključnega pomena za zdravo staranje žensk.
 
-      Čeprav hormonska terapija predstavlja eno izmed možnosti zdravljenja, ni primerna za vse ženske. Vedno več zanimanja je tudi za naravne, t. i. nefarmakološke pristope, vendar znanstvenih raziskav na tem področju še vedno primanjkuje.
+      Čeprav hormonska terapija predstavlja eno izmed možnosti zdravljenja, ni primerna za vse ženske. Vedno več je zanimanja za naravne, t. i. nefarmakološke pristope, vendar znanstvenih raziskav na tem področju še vedno primanjkuje.
 
       ## Ajurveda
 
@@ -53,7 +53,7 @@ sections:
 
       Po vključitvi v raziskavo in podpisu obrazca za informirano soglasje bodo udeleženke izpolnile vprašalnik, ki je sestavljen iz treh validiranih vprašalnikov: SF 36, ki meri z zdravjem povezano kakovost življenja, MRS (Menopause Rating Scale), ki ocenjujeje simptome menopavze, in PHCS (Perceived Helath Competence Scale), ki meri samoučinkovitost pri obvladovanju zdravja. Izpolnjevanje vprašalnika traja približno 10 minut.
 
-      V prvih dveh tednih intervencije bodo izvedena tri predavanja preko Zoom-a, ki bodo zajemala tako **teoretična kot praktična znanja iz ajurvede**. Udeleženke bodo prejele priporočila glede prehrane, dnevne rutine in tehnik sproščanja. Teoretično in praktično osnovo bodo predstavljala učna gradiva iz programa Podiplomski certifikat iz ajurvede za zdravstvene delavce, ki ga izvajata Maharishi College of Perfect Health International in Alma Mater Europaea (ECM).
+      V prvih dveh tednih intervencije bodo izvedena tri predavanja prek Zoom-a, ki bodo zajemala tako **teoretična kot praktična znanja iz ajurvede**. Udeleženke bodo prejele priporočila glede prehrane, dnevne rutine in tehnik sproščanja. Teoretično in praktično osnovo bodo predstavljala učna gradiva iz programa Podiplomski certifikat iz ajurvede za zdravstvene delavce, ki ga izvajata Maharishi College of Perfect Health International in Alma Mater Europaea (ECM).
 
       1\. **Predavanje: sreda, 24. september, 19.00 – 20.30**
 
@@ -73,12 +73,12 @@ sections:
       - Razstrupljanje: ključ do prenove telesa in duha
       - Tehnike pomlajevanja: ohranite mladost in vitalnost po ajurvedi
       - Obvladovanje stresa z ajurvedskimi modrostmi
-      - Telesna vadba po meri doš: gibanje, ki krepitelo in duha
+      - Telesna vadba po meri doš
       - Zdravilna moč ajurvedskih začimb in zelišč: naravna podpora zdravju
 
-      Posnetki predavanj bodo na voljo za ogled tudi po izvedbi srečanj. Poleg predavanj bodo udeleženke tekom celotne intervencije prejemale dodatna gradiva (testi, kratki kvizi, recepti, ipd.), da bodo lažje vključile priporočila v svoj vsakdanjik in povečale zavezanost programu.
+      Posnetki predavanj bodo na voljo za ogled tudi po izvedbi srečanj. Poleg predavanj bodo udeleženke tekom celotne intervencije prejemale dodatna gradiva (nasveti, kratki kvizi, recepti ipd.), da bodo lažje vključile priporočila v svoj vsakdanjik in povečale zavezanost programu.
 
-      **Po prvem predavanju** bodo udeleženke prejele spletni vprašalnik za določitev svoje konstitucije in neravnovesij
+      **Po prvem predavanju** bodo udeleženke prejele spletni vprašalnik za določitev svoje konstitucije in neravnovesij.
 
       **Po tretjem predavanju** bodo organizirana individualna srečanja (po Zoomu ali v živo po dogovoru) za razjasnitev razumevanja ugotovljenih neravnovesij in ustrezne prehrane.
 
