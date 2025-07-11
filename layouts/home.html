@@ -1,10 +1,10 @@
 {{ define "main" }}
   <!-- Nav bar -->
-  {{ with site.Menus.home }}
+  {{ with .Params.navigation }}
     <nav class="fixed bottom-0 w-full bg-black/40 backdrop-blur-xs border-t border-black/30 flex flex-wrap items-center justify-center p-1 shadow-[-1px_-4px_16px_0_rgba(0,0,0,0.3)]">
       {{ range . }}
-        <a href="{{ .URL }}" class="{{ if .Params.highlight }}animate-pulse hover:animate-none {{ end }}font-bold text-black/80 m-1 px-4 py-3 rounded-lg transition bg-orange-200 hover:bg-amber-100 hover:text-black/90 leading-none shadow-lg/25 border border-black/45 text-center">
-          {{ .Name }}
+        <a href="{{ .url }}" class="{{ if .highlight }}animate-pulse hover:animate-none {{ end }}font-bold text-black/80 m-1 px-4 py-3 rounded-lg transition bg-orange-200 hover:bg-amber-100 hover:text-black/90 leading-none shadow-lg/25 border border-black/45 text-center">
+          {{ .name }}
         </a>
       {{ end }}
     </nav>
@@ -31,7 +31,7 @@
       </h1>
       {{ with .text }}
         {{ range . }}
-          <p class="text-center py-1 max-w-4xl text-shadow-xs text-black/80 text-lg">
+          <p class="text-center py-1 max-w-4xl text-shadow-xs text-black/80">
             {{ . }}
           </p>
         {{ end }}
@@ -39,7 +39,7 @@
       {{ with .badge }}
         <div class="items-center justify-center flex flex-wrap mt-8 max-w-4xl">
           {{ range . }}
-            <span class="bg-white/15 px-4 py-1 mx-1.5 my-1 text-black/80 rounded-xl shadow-xs shadow-black/30 text-shadow-xs border border-black/20 text-center text-lg badge_markdown">
+            <span class="bg-white/15 px-4 py-1 mx-1.5 my-1 text-black/80 rounded-xl shadow-xs shadow-black/30 text-shadow-xs border border-black/20 text-center badge_markdown">
               <b>{{ .title }}</b>:
               {{ .text | markdownify }}
             </span>
@@ -61,6 +61,53 @@
         <div class="homepage_markdown">
           {{ .content | markdownify }}
         </div>
+        {{ with .form }}
+          <form action="{{ .action }}" method="POST" class="mt-8 space-y-4">
+            {{ range .fields }}
+              {{ $type := (default "text" .type) }}
+              {{ if eq $type "checkbox" }}
+                <div class="flex items-center space-x-1.5">
+                  <input
+                    type="{{ $type }}"
+                    id="{{ .name }}"
+                    name="{{ .name }}"
+                    {{ if eq .required true }}
+                      required
+                    {{ end }}
+                    >
+                  <label for="{{ .name }}" class="text-base align-bottom">
+                    {{ .pretty_name }}
+                  </label>
+                </div>
+              {{ else }}
+                <div class="">
+                  <label for="{{ .name }}" class="block text-base font-bold mb-1">
+                    {{ .pretty_name }}
+                  </label>
+                  <input
+                    type="{{ $type }}"
+                    id="{{ .name }}"
+                    name="{{ .name }}"
+                    autocomplete="{{ .name }}"
+                    class="w-110 max-w-full px-3 py-2 rounded-md ring-1 ring-black/65 focus:outline-none focus:ring-2 placeholder-black/30"
+                    {{ if eq .required true }}
+                      required
+                    {{ end }}
+                    {{ with .placeholder }}
+                      placeholder="{{ . }}"
+                    {{ end }}
+                    {{ with .pattern }}
+                      pattern="{{ . }}"
+                    {{ end }}
+                  >
+                </div>
+              {{ end }}
+            {{ end }}
+            <button type="submit" class="font-bold mt-2 px-4 py-3 transition hover:bg-amber-100/60 leading-none hover:cursor-pointer shadow-md bg-white/15 border border-black/25 rounded-md">
+              {{ .submit }}
+            </button>
+          </form>
+        {{ end }}
       </section>
     {{ end }}
   </div>

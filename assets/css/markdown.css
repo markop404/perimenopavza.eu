@@ -3,7 +3,7 @@
 }
 
 .homepage_markdown p {
-    @apply  py-2 leading-8 text-shadow-xs text-black/80 text-lg
+    @apply  mt-4 leading-8 text-shadow-xs text-black/80
 }
 
 .homepage_markdown a {
@@ -11,11 +11,11 @@
 }
 
 .homepage_markdown ul {
-    @apply list-disc pl-10 py-2
+    @apply list-disc pl-10 mt-1
 }
 
 .homepage_markdown li {
-    @apply leading-8 text-black/80 text-shadow-xs text-lg
+    @apply leading-8 text-black/80 text-shadow-xs
 }
 
 .badge_markdown ul {

@@ -1,4 +1,19 @@
 ---
+navigation:
+  - name: "O raziskavi"
+    url: "#o-raziskavi"
+  - name: "Potek in vsebina predavanj"
+    url: "#potek-in-vsebina-predavanj"
+  - name: "Kdo lahko sodeluje"
+    url: "#kdo-lahko-sodeluje"
+  - name: "Prijavi se"
+    url: "#prijavi-se"
+    highlight: true
+  - name: "Kontakt"
+    url: "#kontakt"
+  - name: "Domov"
+    url: "#"
+
 banner:
   image:
     filename: "ayurveda.svg"
@@ -35,7 +50,7 @@ sections:
 
       To obdobje spremljajo hormonske spremembe in številni telesni ter čustveni znaki, kot so neredne menstruacije, motnje spanja, nihanja razpoloženja, vročinski valovi, težave s koncentracijo in druge spremembe. Te težave lahko pomembno vplivajo na kakovost življenja.
 
-      Raziskave kažejo, da do 90 % žensk v tem obdobju poišče nasvet pri zdravstvenem osebju glede lajšanja simptomov, kar kaže na široko razširjenost in pomembnost težav v perimenopavzi. Svetovna zdravstvena organizacija poudarja, da je ustrezna podpora v tem življenjskem obdobju ključnega pomena za zdravo staranje žensk.
+      Raziskave kažejo, da do 90% žensk v tem obdobju poišče nasvet pri zdravstvenem osebju glede lajšanja simptomov, kar kaže na široko razširjenost in pomembnost težav v perimenopavzi. Svetovna zdravstvena organizacija poudarja, da je ustrezna podpora v tem življenjskem obdobju ključnega pomena za zdravo staranje žensk.
 
       Čeprav hormonska terapija predstavlja eno izmed možnosti zdravljenja, ni primerna za vse ženske. Vedno več je zanimanja za naravne, t. i. nefarmakološke pristope, vendar znanstvenih raziskav na tem področju še vedno primanjkuje.
 
@@ -129,7 +144,36 @@ sections:
       Po zaključku raziskave bodo udeleženkam na voljo **splošni rezultati** raziskave v povzetku, ki ne bo vključeval nobenih osebnih podatkov ali individualno prepoznavnih informacij. Če bodo rezultati raziskave pozitivni, je cilj ugotovitve širše predstaviti, in sicer prek objav in konferenc.
   
   - title: "Prijavi se"
-    content: "Prijava trenutno še ni mogoča."
+    form:
+      action: "https://formspree.io/f/xgvygvok"
+      submit: "Pošlji prijavni obrazec"
+      fields:
+        - name: "name"
+          pretty_name: "Ime in priimek"
+          placeholder: "Maja Novak"
+          required: true
+        - name: "email"
+          type: "email"
+          pretty_name: "E-pošta"
+          placeholder: "maja.novak@gmail.com"
+          required: true
+        - name: "tel"
+          type: "tel"
+          pretty_name: "Telefon"
+          placeholder: "321 654 987"
+          pattern: "^[\\d+ ]*$"
+          required: false
+        - name: "confirmation"
+          type: "checkbox"
+          pretty_name: "Strinjam se s sodelovanjem v raziskavi in potrjujem informirano soglasje"
+          required: true
+    content: |     
+      S spodnjo potrditvijo izjavljam:
+
+      -	da sem prebrala vse na tej spletni strani navedene informacije in jih razumem,
+      -	da sodelujem v raziskavi prostovoljno,
+      -	da se zavedam možnosti prekinitve sodelovanja kadarkoli brez posledic,
+      -	da soglašam z uporabo svojih odgovorov v anonimni obliki izključno za raziskovalne namene
 
   - title: "Kontakt"
     content: |

@@ -2,30 +2,8 @@ baseURL: "https://markopejic.com/tina/"
 languageCode: "sl-si"
 title: "Perimenopavza in ajurveda"
 copyright: "© 2025 Tina Rupnik Pejić"
-menus:
-  home:
-    - name: "O raziskavi"
-      url: "#o-raziskavi"
-      weight: 1
-    - name: "Potek in vsebina predavanj"
-      url: "#potek-in-vsebina-predavanj"
-      weight: 2
-    - name: "Kdo lahko sodeluje"
-      url: "#kdo-lahko-sodeluje"
-      weight: 3
-    - name: "Prijavi se"
-      url: "#prijavi-se"
-      weight: 4
-      params:
-        highlight: true
-    - name: "Kontakt"
-      url: "#kontakt"
-      weight: 5
-    - name: "Domov"
-      url: "#"
-      weight: 6
 params:
-  bg_class: "bg-gradient-to-r from-red-100 via-rose-200 to-red-100"
+  bg_class: "bg-gradient-to-r from-orange-100 via-lime-50 to-orange-100"
 build:
   buildStats:
     enable: true
