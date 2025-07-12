@@ -3,7 +3,7 @@
 }
 
 .homepage_markdown p {
-    @apply  mt-4 leading-8 text-shadow-xs text-black/80
+    @apply  mt-4 leading-8 text-shadow-xs text-black/80 text-lg
 }
 
 .homepage_markdown a {
@@ -15,7 +15,7 @@
 }
 
 .homepage_markdown li {
-    @apply leading-8 text-black/80 text-shadow-xs
+    @apply leading-8 text-black/80 text-shadow-xs text-lg
 }
 
 .badge_markdown ul {

@@ -1,19 +1,8 @@
 ---
-navigation:
-  - name: "O raziskavi"
-    url: "#o-raziskavi"
-  - name: "Potek in vsebina predavanj"
-    url: "#potek-in-vsebina-predavanj"
-  - name: "Kdo lahko sodeluje"
-    url: "#kdo-lahko-sodeluje"
-  - name: "Prijavi se"
-    url: "#prijavi-se"
-    highlight: true
-  - name: "Kontakt"
-    url: "#kontakt"
-  - name: "Domov"
-    url: "#"
-
+navbar:
+  enabled: true
+  btn_clr_class: "orange-200"
+  btn_active_clr_class: "amber-100"
 banner:
   image:
     filename: "ayurveda.svg"
@@ -23,17 +12,16 @@ banner:
     - "Vabim te, da sodeluješ v trimesečni raziskavi, kjer bomo raziskovali vpliv ajurvedskih priporočil na kakovost življenja v obdobju perimenopavze."
   badge:
     - title: "Kaj dobiš"
+      is_markdown: true
       text: |
         - Dragoceno znanje, s katerim boš lažje skrbela za svoje zdravje
         - Individualno svetovanje
     - title: "Kje"
       text: "Prek spleta"
     - title: "Kdaj"
-      text: |
-        24\. september - 23\. december 2025
+      text: "24. september - 23. december 2025"
     - title: "Prijave do"
-      text: |
-        5\. september (število mest je omejeno)
+      text: "5. september (število mest je omejeno)"
 
 sections:
   - title: "O raziskavi"
@@ -120,6 +108,7 @@ sections:
       Sodelovanje je povsem prostovoljno. Udeleženke lahko sodelovanje kadarkoli prekinejo brez kakršnih koli posledic ali pojasnil.
 
   - title: "Drugo"
+    exclude_from_navbar: true
     content: |
       ## Zagotavljanje anonimnosti in varstvo podatkov
 
@@ -144,9 +133,10 @@ sections:
       Po zaključku raziskave bodo udeleženkam na voljo **splošni rezultati** raziskave v povzetku, ki ne bo vključeval nobenih osebnih podatkov ali individualno prepoznavnih informacij. Če bodo rezultati raziskave pozitivni, je cilj ugotovitve širše predstaviti, in sicer prek objav in konferenc.
   
   - title: "Prijavi se"
+    highlight: true
     form:
       action: "https://formspree.io/f/xgvygvok"
-      submit: "Pošlji prijavni obrazec"
+      submit: "Pošlji prijavo"
       fields:
         - name: "name"
           pretty_name: "Ime in priimek"
@@ -160,7 +150,7 @@ sections:
         - name: "tel"
           type: "tel"
           pretty_name: "Telefon"
-          placeholder: "321 654 987"
+          placeholder: "041 321 987"
           pattern: "^[\\d+ ]*$"
           required: false
         - name: "confirmation"
@@ -168,7 +158,7 @@ sections:
           pretty_name: "Strinjam se s sodelovanjem v raziskavi in potrjujem informirano soglasje"
           required: true
     content: |     
-      S spodnjo potrditvijo izjavljam:
+      S prijavo izjavljam:
 
       -	da sem prebrala vse na tej spletni strani navedene informacije in jih razumem,
       -	da sodelujem v raziskavi prostovoljno,

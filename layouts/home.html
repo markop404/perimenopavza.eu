@@ -1,11 +1,31 @@
 {{ define "main" }}
+  {{ $accent_color_class := (default "bg-amber-600" $.Site.Params.accent_color_class) }}
+  {{ $bg_class := (default "bg-gradient-to-r from-orange-100 via-lime-50 to-orange-100" .Site.Params.bg_class) }}
+  
   <!-- Nav bar -->
-  {{ with .Params.navigation }}
-    <nav class="fixed bottom-0 w-full bg-black/40 backdrop-blur-xs border-t border-black/30 flex flex-wrap items-center justify-center p-1 shadow-[-1px_-4px_16px_0_rgba(0,0,0,0.3)]">
-      {{ range . }}
-        <a href="{{ .url }}" class="{{ if .highlight }}animate-pulse hover:animate-none {{ end }}font-bold text-black/80 m-1 px-4 py-3 rounded-lg transition bg-orange-200 hover:bg-amber-100 hover:text-black/90 leading-none shadow-lg/25 border border-black/45 text-center">
-          {{ .name }}
-        </a>
+  {{ if .Params.navbar.enabled }}
+    {{ $btn_clr_class := (default "orange-200" .Params.navbar.btn_clr_class) }}
+    {{ $btn_active_clr_class := (default "amber-100" .Params.navbar.btn_active_clr_class) }}
+    <nav 
+      class="fixed bottom-0 w-full bg-black/30 backdrop-blur-xs border-t border-black/30 flex flex-wrap items-center justify-center p-1 shadow-[-1px_-4px_10px_0_rgba(0,0,0,0.3)]"
+    >
+      {{ range .Params.sections }}
+        {{ if not .exclude_from_navbar }}
+          <a
+            href="#{{ .title | anchorize }}"
+            class="
+              font-semibold text-base text-black/80 m-1 px-4 py-3 rounded-lg transition leading-none shadow-sm/25 border border-black/30 text-center
+              focus:border-{{ $accent_color_class }}/70 focus:ring focus:ring-offset-0 focus:ring-{{ $accent_color_class }}/50 focus:outline-none
+              {{ if .highlight }}
+                animate-navbtnpulse hover:animate-none bg-{{ $btn_active_clr_class }}
+              {{ else }}
+                bg-{{ $btn_clr_class }} hover:bg-{{ $btn_active_clr_class }}
+              {{ end }}
+            "
+          >
+            {{ .title }}
+          </a>
+        {{ end }}
       {{ end }}
     </nav>
   {{ end }}
@@ -13,7 +33,7 @@
 
   <!-- Banner -->
   {{ with .Params.banner }}
-    <div class="{{ default $.Site.Params.bg_class .bg_class }} w-full min-h-screen items-center justify-center flex flex-col pb-5 px-5">
+    <div class="{{ default $bg_class .bg_class }} w-full min-h-screen items-center justify-center flex flex-col pb-5 px-5">
       {{ with .image }}
         <img
           class="max-w-100"
@@ -22,7 +42,7 @@
         >
       {{ end }}
       {{ with .subtitle }}
-        <p class="text-center font-light text-black/80 text-shadow-xs max-w-4xl">
+        <p class="text-center font-light text-black/80 text-shadow-xs max-w-4xl text-base">
           {{ . }}
         </p>
       {{ end }}
@@ -31,7 +51,7 @@
       </h1>
       {{ with .text }}
         {{ range . }}
-          <p class="text-center py-1 max-w-4xl text-shadow-xs text-black/80">
+          <p class="text-center py-1 max-w-4xl text-shadow-xs text-black/80 text-lg">
             {{ . }}
           </p>
         {{ end }}
@@ -39,9 +59,15 @@
       {{ with .badge }}
         <div class="items-center justify-center flex flex-wrap mt-8 max-w-4xl">
           {{ range . }}
-            <span class="bg-white/15 px-4 py-1 mx-1.5 my-1 text-black/80 rounded-xl shadow-xs shadow-black/30 text-shadow-xs border border-black/20 text-center badge_markdown">
+            <span
+              class="bg-white/15 px-4 py-1 mx-1.5 my-1 text-black/80 rounded-xl shadow-xs shadow-black/30 text-shadow-xs border border-black/20 text-center badge_markdown text-lg"
+            >
               <b>{{ .title }}</b>:
-              {{ .text | markdownify }}
+              {{ if .is_markdown }}
+                {{ .text | markdownify }}
+              {{ else }}
+                {{ .text }}
+              {{ end }}
             </span>
           {{ end }}
         </div>
@@ -57,53 +83,59 @@
         <h1 class="font-bold text-center text-4xl text-shadow-sm">
           {{ .title }}
         </h1>
-        <div class="h-0.5 w-20 bg-amber-600 rounded-sm mt-5 mb-14 mx-auto"></div>
+        <div class="bg-{{ $accent_color_class }} h-0.5 w-20 rounded-sm mt-5 mb-14 mx-auto"></div>
         <div class="homepage_markdown">
           {{ .content | markdownify }}
         </div>
         {{ with .form }}
-          <form action="{{ .action }}" method="POST" class="mt-8 space-y-4">
-            {{ range .fields }}
-              {{ $type := (default "text" .type) }}
-              {{ if eq $type "checkbox" }}
-                <div class="flex items-center space-x-1.5">
-                  <input
-                    type="{{ $type }}"
-                    id="{{ .name }}"
-                    name="{{ .name }}"
-                    {{ if eq .required true }}
-                      required
-                    {{ end }}
+          <form action="{{ .action }}" method="POST" class="mt-12">
+            <div class="grid grid-cols-1 gap-6">
+              {{ range .fields }}
+                {{ $type := (default "text" .type) }}
+                {{ if eq $type "checkbox" }}
+                  <div class="inline-flex items-center">
+                    <input
+                      type="{{ $type }}"
+                      id="{{ .name }}"
+                      class="rounded hover:cursor-pointer shadow-sm border-black/20 text-white/40 checked:text-{{ $accent_color_class }}/80 focus:ring-2 focus:ring-offset-2 focus:ring-{{ $accent_color_class }}/50 transition"
+                      name="{{ .name }}"
+                      {{ if eq .required true }}
+                        required
+                      {{ end }}
                     >
-                  <label for="{{ .name }}" class="text-base align-bottom">
-                    {{ .pretty_name }}
-                  </label>
-                </div>
-              {{ else }}
-                <div class="">
-                  <label for="{{ .name }}" class="block text-base font-bold mb-1">
-                    {{ .pretty_name }}
-                  </label>
-                  <input
-                    type="{{ $type }}"
-                    id="{{ .name }}"
-                    name="{{ .name }}"
-                    autocomplete="{{ .name }}"
-                    class="w-110 max-w-full px-3 py-2 rounded-md ring-1 ring-black/65 focus:outline-none focus:ring-2 placeholder-black/30"
-                    {{ if eq .required true }}
-                      required
-                    {{ end }}
-                    {{ with .placeholder }}
-                      placeholder="{{ . }}"
-                    {{ end }}
-                    {{ with .pattern }}
-                      pattern="{{ . }}"
-                    {{ end }}
-                  >
-                </div>
+                    <label for="{{ .name }}" class="text-base pl-2 text-shadow-xs hover:cursor-pointer">
+                      {{ .pretty_name }}
+                    </label>
+                  </div>
+                {{ else }}
+                  <div>
+                    <label for="{{ .name }}" class="text-base text-black/70 font-semibold text-shadow-xs hover:cursor-pointer">
+                      {{ .pretty_name }}
+                    </label>
+                    <input
+                      type="{{ $type }}"
+                      id="{{ .name }}"
+                      name="{{ .name }}"
+                      autocomplete="{{ .name }}"
+                      class="mt-1 block w-full max-w-md px-3 py-2 bg-white/40 text-black/80 placeholder:text-black/30 border border-black/20 rounded-md shadow-sm focus:border-{{ $accent_color_class }}/70 focus:ring focus:ring-{{ $accent_color_class }}/50 transition-colors focus:outline-none"
+                      {{ if eq .required true }}
+                        required
+                      {{ end }}
+                      {{ with .placeholder }}
+                        placeholder="{{ . }}"
+                      {{ end }}
+                      {{ with .pattern }}
+                        pattern="{{ . }}"
+                      {{ end }}
+                    >
+                  </div>
+                {{ end }}
               {{ end }}
-            {{ end }}
-            <button type="submit" class="font-bold mt-2 px-4 py-3 transition hover:bg-amber-100/60 leading-none hover:cursor-pointer shadow-md bg-white/15 border border-black/25 rounded-md">
+            </div>
+            <button
+              type="submit"
+              class="font-semibold mt-8 px-4 py-3 transition-colors hover:bg-{{ $accent_color_class }}/5 leading-none hover:cursor-pointer shadow-sm bg-white/40 border border-black/20 rounded-md focus:border-{{ $accent_color_class }}/70 focus:ring focus:ring-offset-0 focus:ring-{{ $accent_color_class }}/50 focus:outline-none"
+            >
               {{ .submit }}
             </button>
           </form>
@@ -112,7 +144,4 @@
     {{ end }}
   </div>
   <!-- /Sections -->
-
-  <!-- Form -->
-  <!-- Form -->
 {{ end }}
