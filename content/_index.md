@@ -153,10 +153,6 @@ sections:
           placeholder: "041 321 987"
           pattern: "^[\\d+ ]*$"
           required: false
-        - name: "confirmation"
-          type: "checkbox"
-          pretty_name: "Strinjam se s sodelovanjem v raziskavi in potrjujem informirano soglasje"
-          required: true
     content: |     
       S prijavo izjavljam:
 
