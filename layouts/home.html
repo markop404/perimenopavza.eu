@@ -7,7 +7,7 @@
     {{ $btn_clr_class := (default "orange-200" .Params.navbar.btn_clr_class) }}
     {{ $btn_active_clr_class := (default "amber-100" .Params.navbar.btn_active_clr_class) }}
     <nav 
-      class="fixed bottom-0 w-full bg-black/30 backdrop-blur-xs border-t border-black/20 flex flex-wrap items-center justify-center p-1 shadow-[-1px_-3px_8px_0_rgba(0,0,0,0.3)]"
+      class="fixed bottom-0 w-full bg-black/30 backdrop-blur-xs border-t border-black/15 flex flex-wrap items-center justify-center p-1 shadow-[0_-8px_16px_rgba(0,0,0,0.2)]"
     >
       {{ range .Params.sections }}
         {{ if not .exclude_from_navbar }}
@@ -68,9 +68,7 @@
       {{ with .badge }}
         <div class="items-center justify-center flex flex-wrap mt-8 max-w-4xl">
           {{ range . }}
-            <span
-              class="bg-white/15 px-4 py-1 mx-1.5 my-1 text-black/80 rounded-xl shadow-xs shadow-black/30 text-shadow-xs border border-black/20 text-center badge_markdown text-lg"
-            >
+            <span class="mx-1.5 my-1 px-3 py-1.5 bg-white/30 text-black/80 border border-black/20 rounded-xl shadow-sm text-center badge_markdown text-lg">
               <b>{{ .title }}</b>:
               {{ if .is_markdown }}
                 {{ .text | markdownify }}
@@ -84,7 +82,7 @@
     </div>
   {{ end }}
   <!-- /Banner -->
-    
+
   <!-- Sections -->
   <div class="{{ $.Site.Params.bg_class }} px-5 pb-80">
     {{ range .Params.sections }}

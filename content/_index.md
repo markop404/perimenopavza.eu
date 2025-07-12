@@ -141,6 +141,7 @@ sections:
         - name: "name"
           pretty_name: "Ime in priimek"
           placeholder: "Maja Novak"
+          pattern: ""
           required: true
         - name: "email"
           type: "email"
@@ -151,7 +152,7 @@ sections:
           type: "tel"
           pretty_name: "Telefon"
           placeholder: "041 321 987"
-          pattern: "^[\\d+ ]*$"
+          pattern: "^(?:(?:\\+|00)386|0)(?:\\s?\\d{1,2}){7,8}$"
           required: false
     content: |     
       S prijavo izjavljam:
