@@ -127,7 +127,7 @@ sections:
 
       ## Etična odobritev raziskave
 
-      Raziskava je bila pregledana in odobrena s strani Etične komisije Univerze Alma Mater Europaea, Slovenska ulica 17, 2000 Maribor dne **...** pod številko **...**
+      Raziskava je bila pregledana in odobrena s strani Etične komisije Univerze Alma Mater Europaea, Slovenska ulica 17, 2000 Maribor.
 
       ## Dostop do rezultatov raziskave
 
