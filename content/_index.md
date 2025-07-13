@@ -135,7 +135,7 @@ sections:
   - title: "Prijavi se"
     highlight: true
     form:
-      action: "https://markopejic.com/"
+      netlify: true
       submit: "Pošlji prijavo"
       fields:
         - name: "name"

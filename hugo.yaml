@@ -3,8 +3,9 @@ languageCode: "sl-si"
 title: "Perimenopavza in ajurveda"
 copyright: "© 2025 Tina Rupnik Pejić"
 params:
-  bg_class: "bg-gradient-to-r from-orange-100 via-lime-50 to-amber-100"
-  accent_color_class: "amber-600"
+  colors:
+    bg_class: "bg-gradient-to-r from-orange-100 via-lime-50 to-amber-100"
+    accent_color_class: "amber-600"
 build:
   buildStats:
     enable: true
