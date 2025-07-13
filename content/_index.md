@@ -135,18 +135,19 @@ sections:
   - title: "Prijavi se"
     highlight: true
     form:
-      action: "https://formspree.io/f/xgvygvok"
+      action: "https://markopejic.com/"
       submit: "Pošlji prijavo"
       fields:
         - name: "name"
           pretty_name: "Ime in priimek"
           placeholder: "Maja Novak"
-          pattern: ""
+          pattern: "^[a-zA-Z\\-\\.']+\\s+[a-zA-Z\\-\\.']+(?:\\s+[a-zA-Z\\-\\.']+)*$"
           required: true
         - name: "email"
           type: "email"
           pretty_name: "E-pošta"
           placeholder: "maja.novak@gmail.com"
+          pattern: "^[a-zA-Z0-9._%\\-\\+]+@[a-zA-Z0-9.\\-]+\\.[a-zA-Z]{2,}$"
           required: true
         - name: "tel"
           type: "tel"
