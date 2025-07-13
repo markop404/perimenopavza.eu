@@ -1,8 +1,9 @@
 ---
 navbar:
   enabled: true
-  btn_clr_class: "orange-200"
-  btn_active_clr_class: "amber-100"
+  colors:
+    btn_clr_class: "orange-200"
+    btn_active_clr_class: "amber-100"
 banner:
   image:
     filename: "ayurveda.svg"

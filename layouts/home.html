@@ -1,11 +1,11 @@
 {{ define "main" }}
-  {{ $accent_color_class := (default "bg-amber-600" $.Site.Params.colors.accent_color_class) }}
+  {{ $accent_color_class := (default "bg-amber-600" .Site.Params.colors.accent_color_class) }}
   {{ $bg_class := (default "bg-gradient-to-r from-orange-100 via-lime-50 to-orange-100" .Site.Params.colors.bg_class) }}
   
   <!-- Nav bar -->
   {{ if .Params.navbar.enabled }}
-    {{ $btn_clr_class := (default "orange-200" .Params.navbar.btn_clr_class) }}
-    {{ $btn_active_clr_class := (default "amber-100" .Params.navbar.btn_active_clr_class) }}
+    {{ $btn_clr_class := (default "orange-200" .Params.navbar.colors.btn_clr_class) }}
+    {{ $btn_active_clr_class := (default "amber-100" .Params.navbar.colors.btn_active_clr_class) }}
     <nav 
       class="fixed bottom-0 w-full bg-black/30 backdrop-blur-xs border-t border-black/15 flex flex-wrap items-center justify-center p-1 shadow-[0_-8px_16px_rgba(0,0,0,0.2)]"
     >
@@ -84,7 +84,7 @@
   <!-- /Banner -->
 
   <!-- Sections -->
-  <div class="{{ $.Site.Params.bg_class }} px-5 pb-80">
+  <div class="{{ $bg_class }} px-5 pb-80">
     {{ range .Params.sections }}
       <section id="{{ .title | anchorize }}" class="max-w-4xl mx-auto pt-40">
         <h1 class="font-bold text-center text-4xl text-shadow-sm">
