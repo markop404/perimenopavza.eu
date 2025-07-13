@@ -171,5 +171,5 @@ sections:
       Če imate vprašanja v zvezi z raziskavo, mi lahko pišete ali me pokličete:
 
       **E-pošta**: [tina.rupnik@almamater.si](mailto:tina.rupnik@almamater.si)  
-      **Tel**: [+386 40 610 033](tel:+38640610033)
+      **Tel**: [+386 ](tel:+386)
 ---
