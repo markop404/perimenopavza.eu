@@ -1,10 +1,10 @@
 {{ define "main" }}
-  <div class="{{ .Site.Params.bg_class }} w-full min-h-screen items-center justify-center flex flex-col">
-    <h1 class="font-bold text-center text-4xl text-black/80 text-shadow-md mb-6 max-w-4xl">
+  <div class="{{ default "bg-gradient-to-r from-orange-100 via-lime-50 to-orange-100" .Site.Params.colors.bg_class }} w-full min-h-screen items-center justify-center flex flex-col">
+    <h1 class="font-extrabold text-center text-[2.5rem] text-black/80 text-shadow-lg max-w-4xl">
       Ta stran ne obstaja :(
     </h1>
-    <p class="">
-      Vrni se na <a href="{{ .Site.Home.RelPermalink }}" class="text-sky-900 underline text-shadow-xs"> domačo stran</a>.
+    <p class="text-shadow-xs">
+      Vrni se na <a href="{{ .Site.Home.RelPermalink }}" class="text-sky-900 underline"> domačo stran</a>.
     </p>
   </div>
 {{ end }}
