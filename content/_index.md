@@ -142,7 +142,7 @@ sections:
         - name: "name"
           pretty_name: "Ime in priimek"
           placeholder: "Maja Novak"
-          pattern: "^[a-zA-Z\\-\\.']+\\s+[a-zA-Z\\-\\.']+(?:\\s+[a-zA-Z\\-\\.']+)*$"
+          # pattern: "^[\\p{L}]+(?:[.'-][\\p{L}]+)*\\s+[\\p{L}]+(?:[.'-][\\p{L}]+)*(?:\\s+[\\p{L}]+(?:[.'-][\\p{L}]+)*)*$"
           required: true
         - name: "email"
           type: "email"
