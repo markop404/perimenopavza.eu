@@ -48,6 +48,7 @@
           class="max-w-100"
           src="{{ (resources.Get (printf "images/%s" .filename) | resources.Minify).RelPermalink }}"
           alt="{{ default "Image description not available" .alt }}"
+          fetchpriority="high"
         >
       {{ end }}
       {{ with .subtitle }}
