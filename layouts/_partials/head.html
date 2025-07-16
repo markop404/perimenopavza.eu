@@ -7,10 +7,10 @@
 {{ with .Params.page.image.filename }}
   {{ $path := (printf "images/%s" .) }}
   {{ with resources.Get $path }}
-    {{ $image = .RelPermalink }}
+    {{ $image = .Permalink }}
   {{ else }}
     {{ with $.Page.Resources.GetMatch $path }}
-      {{ $image = .RelPermalink }}
+      {{ $image = .Permalink }}
     {{ end }}
   {{ end }}
 {{ end }}
