@@ -1,20 +1,20 @@
-.homepage_markdown h2 {
+.homepage_content h3 {
     @apply font-bold text-2xl mt-10 mb-2 text-shadow-xs text-black/80
 }
 
-.homepage_markdown p {
+.homepage_content p {
     @apply  mt-4 leading-8 text-shadow-xs text-black/80 text-lg
 }
 
-.homepage_markdown a {
+.homepage_content a {
     @apply text-sky-900 underline
 }
 
-.homepage_markdown ul {
+.homepage_content ul {
     @apply list-disc pl-10 mt-1
 }
 
-.homepage_markdown li {
+.homepage_content li {
     @apply leading-8 text-black/80 text-shadow-xs text-lg
 }
 

@@ -1,9 +1,15 @@
 ---
-navbar:
-  enabled: true
-  colors:
-    btn_clr_class: "orange-200"
-    btn_active_clr_class: "amber-100"
+page:
+  og_title: "Preproste ajurvedske rešitve za boljše počutje - trimesečni program s praktičnimi usmeritvami"
+  description: "Preproste ajurvedske rešitve za boljše počutje - trimesečni program s praktičnimi usmeritvami"
+  image:
+    filename: "ayurveda.svg"
+  navbar:
+    enabled: true
+    colors:
+      btn_clr_class: "orange-200"
+      btn_active_clr_class: "amber-100"
+
 banner:
   image:
     filename: "ayurveda.svg"
@@ -23,6 +29,7 @@ banner:
       text: "24. september - 23. december 2025"
     - title: "Prijave do"
       text: "5. september (število mest je omejeno)"
+    - text: "Program ni zahteven in je prilagojen vsakdanjemu življenju"
 
 sections:
   - title: "O raziskavi"
@@ -136,13 +143,14 @@ sections:
   - title: "Prijavi se"
     highlight: true
     form:
+      name: "Prijava na raziskavo o perimenopavzi"
       netlify: true
       submit: "Pošlji prijavo"
       fields:
         - name: "name"
           pretty_name: "Ime in priimek"
           placeholder: "Maja Novak"
-          # pattern: "^[\\p{L}]+(?:[.'-][\\p{L}]+)*\\s+[\\p{L}]+(?:[.'-][\\p{L}]+)*(?:\\s+[\\p{L}]+(?:[.'-][\\p{L}]+)*)*$"
+          pattern: "^[\\p{L}]+(?:[.'-][\\p{L}]+)*\\s+[\\p{L}]+(?:[.'-][\\p{L}]+)*(?:\\s+[\\p{L}]+(?:[.'-][\\p{L}]+)*)*$"
           required: true
         - name: "email"
           type: "email"

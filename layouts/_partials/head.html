@@ -1,0 +1,29 @@
+{{ $title := site.Title}}
+{{ with .Params.page.title }}
+  {{ $title = printf "%s | %s" . $title }}
+{{ end }}
+
+{{ $image := "" }}
+{{ with .Params.page.image.filename }}
+  {{ $path := (printf "images/%s" .) }}
+  {{ with resources.Get $path }}
+    {{ $image = .RelPermalink }}
+  {{ else }}
+    {{ with $.Page.Resources.GetMatch $path }}
+      {{ $image = .RelPermalink }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+<title>{{ $title }}</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="{{ .Site.Title }}">
+{{ with $image }}<meta property="og:image" content="{{ . }}">{{ end }}
+{{ with .Params.page.og_title }}<meta property="og:title" content="{{ . }}">{{ end }}
+{{ with .Params.page.description }}<meta property="og:description" content="{{ . }}"><meta name="description" content="{{ . }}">{{ end }}
+
+<!-- {{ $js := resources.Get "js/index.js" | js.Build }}
+<script defer src="{{ $js.RelPermalink }}"></script> -->

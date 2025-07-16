@@ -4,7 +4,7 @@ title: "Perimenopavza in ajurveda"
 copyright: "© 2025 Tina Rupnik Pejić"
 params:
   colors:
-    bg_class: "bg-gradient-to-r from-orange-100 via-lime-50 to-amber-100"
+    bg_class: "bg-gradient-to-r from-amber-100 via-lime-50 to-amber-100"
     accent_color_class: "amber-600"
 build:
   buildStats:

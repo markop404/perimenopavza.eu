@@ -1,8 +1,9 @@
 @import "tailwindcss";
+@import "fonts.css";
+@import "content.css";
+
 @plugin "@tailwindcss/forms";
 
-@import "fonts.css";
-@import "markdown.css";
 @source "hugo_stats.json";
 
 @theme {
