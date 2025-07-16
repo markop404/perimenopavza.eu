@@ -1,29 +1,27 @@
 {{ $title := site.Title}}
-{{ with .Params.page.title }}
-  {{ $title = printf "%s | %s" . $title }}
+{{ with .Params.title }}
+  {{ $title = printf "%s | %s" . site.Title }}
 {{ end }}
 
-{{ $image := "" }}
-{{ with .Params.page.image.filename }}
-  {{ $path := (printf "images/%s" .) }}
-  {{ with resources.Get $path }}
-    {{ $image = .Permalink }}
-  {{ else }}
-    {{ with $.Page.Resources.GetMatch $path }}
-      {{ $image = .Permalink }}
-    {{ end }}
+{{ $og_image := "" }}
+{{ with .Params.og_image }}
+  {{ $path := printf "images/%s" .filename }}
+  {{ with or (resources.Get $path) ($.Page.Resources.GetMatch $path) }}
+    {{ $og_image = .Permalink }}
   {{ end }}
 {{ end }}
 
-<title>{{ $title }}</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>{{ $title }}</title>
+{{ with .Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 <meta property="og:type" content="website">
 <meta property="og:url" content="{{ .Permalink }}">
-<meta property="og:site_name" content="{{ .Site.Title }}">
-{{ with $image }}<meta property="og:image" content="{{ . }}">{{ end }}
-{{ with .Params.page.og_title }}<meta property="og:title" content="{{ . }}">{{ end }}
-{{ with .Params.page.description }}<meta property="og:description" content="{{ . }}"><meta name="description" content="{{ . }}">{{ end }}
+<meta property="og:site_name" content="{{ site.Title }}">
+{{ with $og_image }}<meta property="og:image" content="{{ . }}">{{ end }}
+{{ with .Params.og_image.alt }}<meta property="og:image:alt" content="{{ . }}">{{ end }}
+{{ with .Params.og_title }}<meta property="og:title" content="{{ . }}">{{ end }}
+{{ with .Params.og_description }}<meta property="og:description" content="{{ . }}">{{ end }}
 
 <!-- {{ $js := resources.Get "js/index.js" | js.Build }}
 <script defer src="{{ $js.RelPermalink }}"></script> -->

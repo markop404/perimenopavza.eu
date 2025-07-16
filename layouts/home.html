@@ -3,24 +3,21 @@
   {{ $bg_class := (default "bg-gradient-to-r from-orange-100 via-lime-50 to-orange-100" .Site.Params.colors.bg_class) }}
   
   <!-- Nav bar -->
-  {{ if .Params.page.navbar.enabled }}
-    {{ $btn_clr_class := (default "orange-200" .Params.navbar.colors.btn_clr_class) }}
-    {{ $btn_active_clr_class := (default "amber-100" .Params.navbar.colors.btn_active_clr_class) }}
+  {{ if .Params.navbar.enabled }}
     <nav 
       class="fixed bottom-0 w-full bg-black/30 backdrop-blur-xs border-t border-black/15 flex flex-wrap items-center justify-center p-1 shadow-[0_-8px_16px_rgba(0,0,0,0.2)]"
     >
-      {{ $class := printf "font-semibold text-base text-black/80 m-1 px-4 py-3 rounded-lg transition leading-none shadow-sm/25 border border-black/30 text-center focus-visible:border-%s focus-visible:ring-2 focus-visible:ring-%s/60 outline-none" $accent_color_class }}
+      {{ $btn_class := printf "font-semibold text-base text-black/80 m-1 px-4 py-3 rounded-lg transition leading-none shadow-sm/25 border border-black/30 text-center focus-visible:border-%s focus-visible:ring-2 focus-visible:ring-%s/60 outline-none" $accent_color_class }}
+      {{ $btn_clr_class := (default "orange-200" .Params.navbar.colors.btn_clr_class) }}
+      {{ $btn_active_clr_class := (default "amber-100" .Params.navbar.colors.btn_active_clr_class) }}
       {{ range .Params.sections }}
         {{ if not .exclude_from_navbar }}
           {{ if .highlight }}
-            {{ $class = (printf "%s animate-navbtnpulse hover:animate-none bg-%s" $class $btn_active_clr_class) }}
+            {{ $btn_class = (printf "%s animate-navbtnpulse hover:animate-none bg-%s" $btn_class $btn_active_clr_class) }}
           {{ else }}
-            {{ $class = (printf "%s bg-%s hover:bg-%s" $class $btn_clr_class $btn_active_clr_class) }}
+            {{ $btn_class = (printf "%s bg-%s hover:bg-%s" $btn_class $btn_clr_class $btn_active_clr_class) }}
           {{ end }}
-          <a
-            href="#{{ .title | anchorize }}"
-            class="{{ $class }}"
-          >
+          <a href="#{{ .title | anchorize }}" class="{{ $btn_class }}">
             {{ .title }}
           </a>
         {{ end }}
@@ -49,27 +46,19 @@
         >
       {{ end }}
       <h1 class="font-extrabold text-center text-[2.5rem] text-black/80 text-shadow-lg mb-4 max-w-4xl leading-10">
-          {{ $.Site.Title }}
+          {{ site.Title }}
       </h1>
-      {{ with .text }}
-        {{ range . }}
-          <p class="text-center py-1 max-w-4xl text-shadow-xs text-black/80 text-lg">
-            {{ . }}
-          </p>
-        {{ end }}
+      {{ range .text }}
+        <p class="text-center py-1 max-w-4xl text-shadow-xs text-black/80 text-lg">
+          {{ . }}
+        </p>
       {{ end }}
       {{ with .badge }}
         <div class="items-center justify-center flex flex-wrap mt-8 max-w-4xl">
           {{ range . }}
             <span class="mx-1.5 my-1 px-3 py-1.5 bg-white/30 text-black/80 border border-black/20 rounded-xl shadow-sm text-center badge_markdown text-lg">
-              {{ with .title }}
-                <b>{{ . }}</b>:
-              {{ end }}
-              {{ if .is_markdown }}
-                {{ .text | markdownify }}
-              {{ else }}
-                {{ .text }}
-              {{ end }}
+              {{ with .title }}<b>{{ . }}</b>:{{ end }}
+              {{ cond .is_markdown (.text | markdownify) .text }}
             </span>
           {{ end }}
         </div>
@@ -149,7 +138,7 @@
               type="submit"
               class="font-semibold mt-8 px-4 py-3 transition-colors hover:bg-{{ $accent_color_class }}/5 leading-none hover:cursor-pointer shadow-sm bg-white/40 border border-black/20 rounded-md focus-visible:border-{{ $accent_color_class }}/70 focus-visible:ring focus-visible:ring-offset-0 focus-visible:ring-{{ $accent_color_class }}/50 outline-none"
             >
-              {{ .submit }}
+              {{ .submit_btn_text }}
             </button>
           </form>
         {{ end }}

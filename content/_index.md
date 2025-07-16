@@ -1,14 +1,13 @@
 ---
-page:
-  og_title: "Preproste ajurvedske rešitve za boljše počutje - trimesečni program s praktičnimi usmeritvami"
-  description: "Preproste ajurvedske rešitve za boljše počutje - trimesečni program s praktičnimi usmeritvami"
-  image:
-    filename: "ayurveda.png"
-  navbar:
-    enabled: true
-    colors:
-      btn_clr_class: "orange-200"
-      btn_active_clr_class: "amber-100"
+og_title: "Preproste ajurvedske rešitve za boljše počutje - trimesečni program s praktičnimi usmeritvami"
+description: "Preproste ajurvedske rešitve za boljše počutje - trimesečni program s praktičnimi usmeritvami"
+og_image:
+  filename: "ayurveda.png"
+navbar:
+  enabled: true
+  colors:
+    btn_clr_class: "orange-200"
+    btn_active_clr_class: "amber-100"
 
 banner:
   image:
@@ -145,7 +144,7 @@ sections:
     form:
       name: "Prijava na raziskavo o perimenopavzi"
       netlify: true
-      submit: "Pošlji prijavo"
+      submit_btn_text: "Pošlji prijavo"
       fields:
         - name: "name"
           pretty_name: "Ime in priimek"
