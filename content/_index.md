@@ -28,7 +28,8 @@ banner:
       text: "24. september - 23. december 2025"
     - title: "Prijave do"
       text: "5. september (število mest je omejeno)"
-    - text: "Program ni zahteven in je prilagojen vsakdanjemu življenju"
+    - text: "**Program ni zahteven in je prilagojen vsakdanjemu življenju**"
+      is_markdown: true
 
 sections:
   - title: "O raziskavi"
