@@ -13,7 +13,6 @@ page:
 banner:
   image:
     filename: "ayurveda.svg"
-  subtitle: "Vabljena k sodelovanju v raziskavi"
   text:
     - "Si stara med 40 in 55 let? Doživljaš spremembe, kot so neredne menstruacije, motnje spanja, nihanje razpoloženja, vročinski oblivi, utrujenost, težave s sečnim mehurjem, manjša zbranost ipd?"
     - "Vabim te, da sodeluješ v trimesečni raziskavi, kjer bomo raziskovali vpliv ajurvedskih priporočil na kakovost življenja v obdobju perimenopavze."
