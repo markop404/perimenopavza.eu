@@ -3,7 +3,7 @@ page:
   og_title: "Preproste ajurvedske rešitve za boljše počutje - trimesečni program s praktičnimi usmeritvami"
   description: "Preproste ajurvedske rešitve za boljše počutje - trimesečni program s praktičnimi usmeritvami"
   image:
-    filename: "ayurveda.svg"
+    filename: "ayurveda.png"
   navbar:
     enabled: true
     colors:
