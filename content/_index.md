@@ -138,7 +138,7 @@ sections:
       ## Dostop do rezultatov raziskave
 
       Po zaključku raziskave bodo udeleženkam na voljo **splošni rezultati** raziskave v povzetku, ki ne bo vključeval nobenih osebnih podatkov ali individualno prepoznavnih informacij. Če bodo rezultati raziskave pozitivni, je cilj ugotovitve širše predstaviti, in sicer prek objav in konferenc.
-  
+
   - title: "Prijavi se"
     highlight: true
     form:
@@ -163,7 +163,7 @@ sections:
           placeholder: "041 321 987"
           pattern: "^(?:(?:\\+|00)386|0)(?:\\s?\\d{1,2}){7,8}$"
           required: false
-    content: |     
+    content: |
       S prijavo izjavljam:
 
       -	da sem prebrala vse na tej spletni strani navedene informacije in jih razumem,
