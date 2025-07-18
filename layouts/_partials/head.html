@@ -22,6 +22,3 @@
 {{ with .Params.og_image.alt }}<meta property="og:image:alt" content="{{ . }}">{{ end }}
 {{ with .Params.og_title }}<meta property="og:title" content="{{ . }}">{{ end }}
 {{ with .Params.og_description }}<meta property="og:description" content="{{ . }}">{{ end }}
-
-<!-- {{ $js := resources.Get "js/index.js" | js.Build }}
-<script defer src="{{ $js.RelPermalink }}"></script> -->

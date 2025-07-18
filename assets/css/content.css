@@ -21,3 +21,11 @@
 .badge_markdown ul {
     @apply list-disc list-inside
 }
+
+footer a {
+    @apply text-sky-800 underline
+}
+
+footer p {
+    @apply text-base text-shadow-xs text-black/60 leading-7
+}

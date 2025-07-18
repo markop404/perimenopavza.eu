@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html
   lang="{{ or site.Language.LanguageCode }}"
-  dir="{{ or site.Language.LanguageDirection `ltr` }}"
-  class="scroll-smooth"
+  dir="{{ or site.Language.LanguageDirection "ltr" }}"
+  class="scroll-smooth {{ site.Params.colors.bg_class }}"
 >
 <head>
+  {{ partial "head.html" . }}
   {{ with (templates.Defer (dict "key" "global")) }}
     {{ partial "css.html" . }}
   {{ end }}
-  {{ partial "head.html" . }}
+  {{ partial "js.html"}}
 </head>
 <body>
   <main>
     {{ block "main" . }}{{ end }}
   </main>
+  {{ partial "footer.html" . }}
 </body>
-</html> 
+</html>

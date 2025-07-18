@@ -21,14 +21,19 @@ banner:
       text: |
         - Dragoceno znanje, s katerim boš lažje skrbela za svoje zdravje
         - Individualno svetovanje
+      color: "teal-300"
     - title: "Kje"
       text: "Prek spleta"
+      color: "pink-300"
     - title: "Kdaj"
       text: "24. september - 23. december 2025"
+      color: "lime-300"
     - title: "Prijave do"
       text: "5. september (število mest je omejeno)"
+      color: "amber-300"
     - text: "**Program ni zahteven in je prilagojen vsakdanjemu življenju**"
       is_markdown: true
+      color: "violet-300"
 
 sections:
   - title: "O raziskavi"
@@ -61,7 +66,7 @@ sections:
     content: |
       Raziskava bo trajala 3 mesece, od 24. septembra do 23. decembra 2025.
 
-      Po vključitvi v raziskavo in podpisu obrazca za informirano soglasje bodo udeleženke izpolnile vprašalnik, ki je sestavljen iz treh validiranih vprašalnikov: SF 36, ki meri z zdravjem povezano kakovost življenja, MRS (Menopause Rating Scale), ki ocenjujeje simptome menopavze, in PHCS (Perceived Helath Competence Scale), ki meri samoučinkovitost pri obvladovanju zdravja. Izpolnjevanje vprašalnika traja približno 10 minut.
+      Po vključitvi v raziskavo in podpisu obrazca za informirano soglasje bodo udeleženke izpolnile vprašalnik, ki je sestavljen iz treh validiranih vprašalnikov: SF 36, ki meri z zdravjem povezano kakovost življenja, MRS (Menopause Rating Scale), ki ocenjujeje simptome menopavze, in PHCS (Perceived Health Competence Scale), ki meri samoučinkovitost pri obvladovanju zdravja. Izpolnjevanje vprašalnika traja približno 10 minut.
 
       V prvih dveh tednih intervencije bodo izvedena tri predavanja prek Zoom-a, ki bodo zajemala tako **teoretična kot praktična znanja iz ajurvede**. Udeleženke bodo prejele priporočila glede prehrane, dnevne rutine in tehnik sproščanja. Teoretično in praktično osnovo bodo predstavljala učna gradiva iz programa Podiplomski certifikat iz ajurvede za zdravstvene delavce, ki ga izvajata Maharishi College of Perfect Health International in Alma Mater Europaea (ECM).
 
@@ -99,7 +104,7 @@ sections:
       V raziskavi lahko sodelujejo ženske, ki izpolnjujejo naslednje pogoje:
 
       - So stare med 40 in 55 let,
-      - Imajo vsaj tri značilne simptoma perimenopavze, kot so neredne menstruacije, motnje spanja, nihanje razpoloženja, vročinski oblivi, fizična in psihična izčrpanost, težave s sečnim mehurjem, manjša zbranost, spremembe v libidu, občutek suhe nožnice, občutek razbijanja srca.
+      - Imajo vsaj tri značilne simptome perimenopavze, kot so neredne menstruacije, motnje spanja, nihanje razpoloženja, vročinski oblivi, fizična in psihična izčrpanost, težave s sečnim mehurjem, manjša zbranost, spremembe v libidu, občutek suhe nožnice, občutek razbijanja srca.
       - So pripravljene **tri mesece izvajati priporočila ajurvedskega življenjskega sloga**, kar vključuje predvsem prilagoditev prehrane glede na telesno konstitucijo in vzpostavitev ustrezne dnevne rutine (npr. odhod v posteljo pred 22.00).
       - Dajo svoje prostovoljno soglasje za sodelovanje v raziskavi.
 
@@ -178,5 +183,5 @@ sections:
       Če imate vprašanja v zvezi z raziskavo, mi lahko pišete ali me pokličete:
 
       **E-pošta**: [tinarupnikpejic@gmail.com](mailto:tinarupnikpejic@gmail.com)  
-      **Tel**: [+386 69 421 418](tel:+38669421418)
+      **Tel**: [069 421 418](tel:+38669421418)
 ---
