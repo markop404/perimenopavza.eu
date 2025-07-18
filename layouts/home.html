@@ -79,48 +79,34 @@
         {{ with .form }}
           <form
             method="POST"
-            class="mt-12"
+            class="mt-12 space-y-6"
             {{ with .name }}name="{{ . }}"{{ end }}
             {{ if .netlify }}netlify{{ else }}action="{{ .action }}"{{ end }}
           >
-            <div class="grid grid-cols-1 gap-6">
-              {{ range .fields }}
-                {{ $type := (default "text" .type) }}
-                {{ if eq $type "checkbox" }}
-                  <div class="inline-flex items-center">
-                    <input
-                      type="{{ $type }}"
-                      id="{{ .name }}"
-                      class="rounded hover:cursor-pointer shadow-sm border-black/20 text-white/40 checked:text-{{ $color_class }}/80 focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-{{ $color_class }}/50 transition"
-                      name="{{ .name }}"
-                      {{ if .required }}required{{ end }}
-                    >
-                    <label for="{{ .name }}" class="text-base pl-2 text-shadow-xs hover:cursor-pointer">
-                      {{ .pretty_name }}
-                    </label>
-                  </div>
-                {{ else }}
-                  <div>
-                    <label for="{{ .name }}" class="text-base text-black/70 font-semibold text-shadow-xs hover:cursor-pointer">
-                      {{ .pretty_name }}
-                    </label>
-                    <input
-                      type="{{ $type }}"
-                      id="{{ .name }}"
-                      name="{{ .name }}"
-                      autocomplete="{{ .name }}"
-                      class="mt-1 block w-full max-w-md px-3 py-2 bg-white/40 text-black/80 placeholder:text-black/30 border border-black/20 rounded-md shadow-sm focus-visible:border-{{ $color_class }}/70 focus-visible:ring focus-visible:ring-{{ $color_class }}/50 transition-colors outline-none"
-                      {{ if .required }}required{{ end }}
-                      {{ with .placeholder }}placeholder="{{ . }}"{{ end }}
-                      {{ with .pattern }}pattern="{{ . }}"{{ end }}
-                    >
-                  </div>
-                {{ end }}
-              {{ end }}
-            </div>
+            {{ range .fields }}
+              {{ $type := (default "text" .type) }}
+              <div>
+                <label
+                  for="{{ .name }}"
+                  class="text-base text-black/70 font-semibold text-shadow-xs hover:cursor-pointer"
+                >
+                  {{ .pretty_name }}
+                </label>
+                <input
+                  type="{{ $type }}"
+                  id="{{ .name }}"
+                  name="{{ .name }}"
+                  autocomplete="{{ .name }}"
+                  class="mt-1 block w-full max-w-md px-3 py-2 bg-white/40 text-black/80 placeholder:text-black/30 border border-black/20 rounded-md shadow-sm focus-visible:border-{{ $color_class }}/70 focus-visible:ring focus-visible:ring-{{ $color_class }}/50 transition-colors outline-none"
+                  {{ if .required }}required{{ end }}
+                  {{ with .placeholder }}placeholder="{{ . }}"{{ end }}
+                  {{ with .pattern }}pattern="{{ . }}"{{ end }}
+                >
+              </div>
+            {{ end }}
             <button
               type="submit"
-              class="font-semibold mt-8 px-4 py-3 transition-colors hover:bg-{{ $color_class }}/5 leading-none hover:cursor-pointer shadow-sm bg-white/40 border border-black/20 rounded-md focus-visible:border-{{ $color_class }}/70 focus-visible:ring focus-visible:ring-offset-0 focus-visible:ring-{{ $color_class }}/50 outline-none"
+              class="font-semibold mt-2 px-4 py-3 transition-colors hover:bg-{{ $color_class }}/5 leading-none hover:cursor-pointer shadow-sm bg-white/40 border border-black/20 rounded-md focus-visible:border-{{ $color_class }}/70 focus-visible:ring focus-visible:ring-offset-0 focus-visible:ring-{{ $color_class }}/50 outline-none"
             >
               {{ .submit_btn_text }}
             </button>
