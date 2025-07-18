@@ -1,6 +1,6 @@
 {{ define "main" }}
-   {{ $bg_class :=  .Params.colors.bg_class }}
-   {{ $color_class := .Params.colors.color_class }}
+   {{ $bg_class :=  site.Params.colors.bg_class }}
+   {{ $color_class := site.Params.colors.color_class }}
 
   <!-- Nav bar -->
   {{ if .Params.navbar.enabled }}
