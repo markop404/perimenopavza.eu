@@ -12,33 +12,46 @@ navbar:
 banner:
   image:
     filename: "ayurveda.svg"
-  text:
-    - "Si stara med 40 in 55 let? Doživljaš spremembe, kot so neredne menstruacije, motnje spanja, nihanje razpoloženja, vročinski oblivi, utrujenost, težave s sečnim mehurjem, manjša zbranost ipd?"
-    - "Vabim te, da sodeluješ v trimesečni raziskavi, kjer bomo raziskovali vpliv ajurvedskih priporočil na kakovost življenja v obdobju perimenopavze."
-  badge:
-    - title: "Kaj dobiš"
+  content:
+    - text: |
+        Si stara med 40 in 55 let?
+        
+        Doživljaš spremembe, kot so neredne menstruacije, motnje spanja, nihanje razpoloženja, vročinski oblivi, utrujenost, težave s sečnim mehurjem, manjša zbranost ipd?
       is_markdown: true
-      text: |
-        - Dragoceno znanje, s katerim boš lažje skrbela za svoje zdravje
-        - Individualno svetovanje
-      color: "teal-300"
-    - title: "Kje"
-      text: "Prek spleta"
-      color: "pink-300"
-    - title: "Kdaj"
-      text: "24. september - 23. december 2025"
+    - text: |
+        **Vabim te k sodelovanju v raziskavi, kjer boš popolnoma brezplačno dobila:**
+        
+        {{< svg "24/outline/check" >}} Dragoceno znanje in podporo pri skrbi za svoje zdravje - s poudarkom na naravnem, nefarmakološkem pristopu,
+
+        {{< svg "24/outline/check" >}} Praktične nasvete in ajurvedske smernice, ki ti bodo pomagale k boljšemu počutju
+
+      is_markdown: true
+  badge:
+    - title: "Predavanja"
+      is_markdown: true
       color: "lime-300"
+      text: |
+        torek 24. 9., sreda 30. 9. in nedelja 5. 10. od 19:00 do 20:30
+      icon: "24/outline/presentation-chart-line"
+    - title: "Individualno svetovanje"
+      is_markdown: true
+      icon: "24/outline/chat-bubble-left-right"
+      text: |
+        6\. - 31\. oktober 2025
+      color: "cyan-300"
     - title: "Prijave do"
       text: "5. september (število mest je omejeno)"
       color: "amber-300"
-    - text: "**Program ni zahteven in je prilagojen vsakdanjemu življenju**"
-      is_markdown: true
-      color: "violet-300"
+      icon: "24/outline/calendar-days"
+    - title: "Kje"
+      text: "Prek spleta"
+      color: "pink-300"
+      icon: "24/outline/globe-europe-africa"
 
 sections:
   - title: "O raziskavi"
     content: |
-      Raziskava z naslovom **Vpliv intervencije ajurvedskega življenjskega sloga na kakovost življenja in zdravstveno samoučinkovitost žensk v perimenopavzi** poteka v okviru magistrskega študija integrativnih zdravstvenih ved na univerzi Alma Mater Europea. Njen namen je ugotoviti učinke ajurvedskega življenjskega sloga na kakovost življenja žensk v času perimenopavze, pri čemer se osredotoča na vpliv:
+      Raziskava z naslovom **Vpliv intervencije ajurvedskega življenjskega sloga na kakovost življenja in zdravstveno samoučinkovitost žensk v perimenopavzi** poteka v okviru magistrskega študija integrativnih zdravstvenih ved na univerzi Alma Mater Europea. Njen namen je ovrednotiti učinke ajurvedskega življenjskega sloga na kakovost življenja žensk v času perimenopavze, pri čemer se osredotoča na vpliv:
 
       - na menopavzne simptome,
       - na zdravje in dobro počutje,
@@ -48,7 +61,7 @@ sections:
 
       Perimenopavza oziroma menopavzni prehod je naravno prehodno obdobje v življenju ženske, ki običajno nastopi med 40. in 50. letom starosti. Povprečno traja okoli 5 let, pri nekaterih ženskah lahko traja tudi 10 let. Začne se s prvimi spremembami v menstrualnem ciklu in se konča 12 mesecev po zadnji menstruaciji.
 
-      To obdobje spremljajo hormonske spremembe in številni telesni ter čustveni znaki, kot so neredne menstruacije, motnje spanja, nihanja razpoloženja, vročinski valovi, težave s koncentracijo in druge spremembe. Te težave lahko pomembno vplivajo na kakovost življenja.
+      To obdobje spremljajo hormonske spremembe in številni telesni ter čustveni znaki, kot so neredne menstruacije, motnje spanja, nihanja razpoloženja, vročinski valovi, težave s koncentracijo in druge spremembe. Te težave pomembno vplivajo na kakovost življenja.
 
       Raziskave kažejo, da do 90% žensk v tem obdobju poišče nasvet pri zdravstvenem osebju glede lajšanja simptomov, kar kaže na široko razširjenost in pomembnost težav v perimenopavzi. Svetovna zdravstvena organizacija poudarja, da je ustrezna podpora v tem življenjskem obdobju ključnega pomena za zdravo staranje žensk.
 
@@ -58,32 +71,32 @@ sections:
 
       Ajurveda velja za najstarejši medicinski sistem na svetu. Čeprav je nastala pred približno 5000 leti in na drugem koncu sveta, so njena globoka spoznanja o delovanju narave in človeka veljavna še danes, za kogarkoli in kjerkoli. Učinkovitost ajurvede priznava tudi Svetovna zdravstvena organizacija.
 
-      Ajurveda na perimenopavzo gleda kot na naravni prehod, ki ga zaznamuje vata doša, prevladujoča v poznejših življenjskih obdobjih. Simptomi so razumljeni kot izrazi neravnovesij med tremi došami – vata, pitta in kapha. Po ajurvedskih načelih lahko spremembe življenjskega sloga, prilagojene posameznikovi edinstveni konstituciji, vzpostavijo ravnovesje, zmanjšajo simptome in izboljšajo splošno počutje. Med te intervencije sodijo prilagoditve prehrane, vsakodnevne rutine, tehnike obvladovanja stresa ter zeliščni pripravki. **Ajurvedski celostni pristop poudarja preventivo in samopomoč ter posameznika spodbuja k aktivnemu sodelovanju pri ohranjanju zdravja.**
+      Ajurveda na perimenopavzo gleda kot na naravni prehod, ki ga zaznamuje vata doša, prevladujoča v poznejših življenjskih obdobjih. Simptomi so razumljeni kot izrazi neravnovesij med tremi došami – vata, pitta in kapha. Po ajurvedskih načelih lahko spremembe življenjskega sloga, prilagojene posameznikovi edinstveni konstituciji, vzpostavijo ravnovesje, zmanjšajo simptome in izboljšajo splošno počutje. Med te spremembe sodijo prilagoditve prehrane, vsakodnevne rutine, tehnike obvladovanja stresa ter zeliščni pripravki. **Ajurvedski celostni pristop poudarja preventivo in samopomoč ter posameznika spodbuja k aktivnemu sodelovanju pri ohranjanju zdravja.**
 
       Na podlagi teh izhodišč ta raziskava želi ovrednotiti ajurvedski življenjski slog kot dopolnilni pristop k obvladovanju perimenopavzalnih simptomov. **Z naslavljanjem temeljnih vzrokov neravnovesja namesto posameznih simptomov ajurveda predstavlja dragocen pristop k izboljšanju kakovosti življenja v času perimenopavze.**
 
-  - title: "Potek in vsebina predavanj"
+  - title: "Potek raziskave in vsebina predavanj"
     content: |
       Raziskava bo trajala 3 mesece, od 24. septembra do 23. decembra 2025.
 
-      Po vključitvi v raziskavo in podpisu obrazca za informirano soglasje bodo udeleženke izpolnile vprašalnik, ki je sestavljen iz treh validiranih vprašalnikov: SF 36, ki meri z zdravjem povezano kakovost življenja, MRS (Menopause Rating Scale), ki ocenjujeje simptome menopavze, in PHCS (Perceived Health Competence Scale), ki meri samoučinkovitost pri obvladovanju zdravja. Izpolnjevanje vprašalnika traja približno 10 minut.
+      Po vključitvi v raziskavo in podpisu obrazca za informirano soglasje bodo udeleženke izpolnile vprašalnik, ki je sestavljen iz treh validiranih vprašalnikov: [SF 36](https://www.qualitymetric.com/health-surveys/the-sf-36v2-health-survey/), ki meri z zdravjem povezano kakovost življenja, [MRS (Menopause Rating Scale)](https://zeg-berlin.de/expertise/diagnostics-tools/menopause-rating-scale/about-mrs/), ki ocenjujeje simptome menopavze, in [PHCS (Perceived Health Competence Scale)](https://pubmed.ncbi.nlm.nih.gov/10150421/), ki meri samoučinkovitost pri obvladovanju zdravja. Izpolnjevanje vprašalnika traja približno 10 minut.
 
       V prvih dveh tednih intervencije bodo izvedena tri predavanja prek Zoom-a, ki bodo zajemala tako **teoretična kot praktična znanja iz ajurvede**. Udeleženke bodo prejele priporočila glede prehrane, dnevne rutine in tehnik sproščanja. Teoretično in praktično osnovo bodo predstavljala učna gradiva iz programa Podiplomski certifikat iz ajurvede za zdravstvene delavce, ki ga izvajata Maharishi College of Perfect Health International in Alma Mater Europaea (ECM).
 
-      1\. **Predavanje: sreda, 24. september, 19.00 – 20.30**
+      **1. Predavanje: sreda, 24. september, 19.00 – 20.30**
 
       - Kaj se dogaja z mano? Razumevanje perimenopavze skozi sodobno in ajurvedsko znanje
       - Principi Vata, Pitta in Kapha v človeški fiziologiji in naravi
       - Osnovna načela zdravljenja in uravnoteženja doš
 
-      2\. **Predavanje: torek, 30. september, 19.00 – 20.30**
+      **2. Predavanje: torek, 30. september, 19.00 – 20.30**
 
       - Prebavni ogenj: ključ do zdravja
       - Jej po svoji meri: prehrana v skladu s tvojo konstitucijo
       - Kako nastane bolezen: 6 stopenj razvoja bolezni, ki jih lahko pravočasno prepoznamo
       - Moč rutine: kako nas vsakdanja struktura vrača v ravnovesje
 
-      3\. **Predavanje: nedelja, 5. oktober, 19.00 – 20.30**
+      **3. Predavanje: nedelja, 5. oktober, 19.00 – 20.30**
 
       - Razstrupljanje: ključ do prenove telesa in duha
       - Tehnike pomlajevanja: ohranite mladost in vitalnost po ajurvedi
@@ -91,11 +104,13 @@ sections:
       - Telesna vadba po meri doš
       - Zdravilna moč ajurvedskih začimb in zelišč: naravna podpora zdravju
 
-      Posnetki predavanj bodo na voljo za ogled tudi po izvedbi srečanj. Poleg predavanj bodo udeleženke tekom celotne intervencije prejemale dodatna gradiva (nasveti, kratki kvizi, recepti ipd.), da bodo lažje vključile priporočila v svoj vsakdanjik in povečale zavezanost programu.
+      Posnetki predavanj bodo na voljo za ogled tudi po izvedbi srečanj. Poleg predavanj bodo udeleženke prejele dodatna gradiva (nasveti, kratki kvizi, recepti ipd.), da bodo lažje vključile priporočila v svoj vsakdanjik in povečale zavezanost programu.
 
       **Po prvem predavanju** bodo udeleženke prejele spletni vprašalnik za določitev svoje konstitucije in neravnovesij.
 
       **Po tretjem predavanju** bodo organizirana individualna srečanja (po Zoomu ali v živo po dogovoru) za razjasnitev razumevanja ugotovljenih neravnovesij in ustrezne prehrane.
+
+      **V vmesnem obdobju** bodo udeleženke v največji možni meri skušale upoštevati prejete nasvete in priporočila ter jih vključevati v svoj vsakdan.
 
       **Po treh mesecih** (23. decembra) bodo udeleženke prejele enak vprašalnik kot na začetku, tokrat z dodatnimi tremi kratkimi vprašanji kvalitativnega tipa. Udeleženke lahko v primeru kakršnekoli dodatne potrebe, ki bi se pojavila med raziskavo, [kontaktirajo izvajalko raziskave Tino Rupnik Pejić](#kontakt).
 
@@ -105,7 +120,7 @@ sections:
 
       - So stare med 40 in 55 let,
       - Imajo vsaj tri značilne simptome perimenopavze, kot so neredne menstruacije, motnje spanja, nihanje razpoloženja, vročinski oblivi, fizična in psihična izčrpanost, težave s sečnim mehurjem, manjša zbranost, spremembe v libidu, občutek suhe nožnice, občutek razbijanja srca.
-      - So pripravljene **tri mesece izvajati priporočila ajurvedskega življenjskega sloga**, kar vključuje predvsem prilagoditev prehrane glede na telesno konstitucijo in vzpostavitev ustrezne dnevne rutine (npr. odhod v posteljo pred 22.00).
+      - So pripravljene **tri mesece izvajati priporočila ajurvedskega življenjskega sloga**, kar vključuje predvsem prilagoditev prehrane glede na individualno svetovanje in vzpostavitev ustrezne dnevne rutine (npr. odhod v posteljo do 22.00).
       - Dajo svoje prostovoljno soglasje za sodelovanje v raziskavi.
 
       ## Kdo ne more sodelovati v raziskavi?
@@ -130,7 +145,7 @@ sections:
 
       ## Možna tveganja in koristi
 
-      Raziskava ne vključuje medicinskih postopkov in ne nadomešča zdravstvene obravnave. Tveganj za vaše zdravje ni. Lahko pa pričakujete pozitiven vpliv na počutje ter več znanja o podpori v času perimenopavze.
+      Raziskava ne vključuje medicinskih postopkov in ne nadomešča zdravstvene obravnave. **Tveganj za vaše zdravje ni**. Lahko pa pričakujete pozitiven vpliv na počutje ter več znanja o podpori v času perimenopavze.
 
       ## Nadomestilo
 
@@ -142,7 +157,7 @@ sections:
 
       ## Dostop do rezultatov raziskave
 
-      Po zaključku raziskave bodo udeleženkam na voljo **splošni rezultati** raziskave v povzetku, ki ne bo vključeval nobenih osebnih podatkov ali individualno prepoznavnih informacij. Če bodo rezultati raziskave pozitivni, je cilj ugotovitve širše predstaviti, in sicer prek objav in konferenc.
+      Po zaključku raziskave bodo udeleženkam na voljo **splošni rezultati** raziskave v povzetku, ki ne bo vključeval nobenih osebnih podatkov ali individualno prepoznavnih informacij. Če bodo rezultati raziskave pozitivni, je cilj ugotovitve širše predstaviti, in sicer prek strokovnih objav in predstavitev na konferencah.
 
   - title: "Prijavi se"
     highlight: true
@@ -169,12 +184,18 @@ sections:
           pattern: "^(?:(?:\\+|00)386|0)(?:\\s?\\d{1,2}){7,8}$"
           required: false
     content: |
-      S prijavo izjavljam:
+      Vaše sodelovanje mi veliko pomeni in sem vam zanj iskreno hvaležna.
 
-      -	da sem prebrala vse na tej spletni strani navedene informacije in jih razumem,
-      -	da sodelujem v raziskavi prostovoljno,
-      -	da se zavedam možnosti prekinitve sodelovanja kadarkoli brez posledic,
-      -	da soglašam z uporabo svojih odgovorov v anonimni obliki izključno za raziskovalne namene
+      Z vašo pomočjo želim prispevati k boljšemu razumevanju, kako lahko ajurvedska priporočila podprejo žensko telo in duha v občutljivem življenjskem obdobju.
+      
+      Vse zgoraj navedene informacije so namenjene temu, da se lahko za sodelovanje odločite varno in z zavedanjem vseh pomembnih vidikov.
+
+      S prijavo izjavljate:
+
+      -	da ste prebrali vse na tej spletni strani navedene informacije in jih razumete,
+      -	da sodelujete v raziskavi prostovoljno,
+      -	da se zavedate možnosti prekinitve sodelovanja kadarkoli brez posledic,
+      -	da soglašate z uporabo svojih odgovorov v anonimni obliki izključno za raziskovalne namene
 
   - title: "Kontakt"
     content: |
@@ -182,6 +203,6 @@ sections:
 
       Če imate vprašanja v zvezi z raziskavo, mi lahko pišete ali me pokličete:
 
-      **E-pošta**: [tinarupnikpejic@gmail.com](mailto:tinarupnikpejic@gmail.com)  
-      **Tel**: [069 421 418](tel:+38669421418)
+      **E-pošta**: [](mailto://tinarupnikpejic@gmail.com)  
+      **Tel**: [069 421 418](tel://+38669421418)
 ---

@@ -3,11 +3,11 @@
 }
 
 .homepage_content p {
-    @apply  mt-4 leading-8 text-shadow-xs text-black/80 text-lg
+    @apply  mt-4 leading-8 text-shadow-xs text-black/80 text-[17px]
 }
 
 .homepage_content a {
-    @apply text-sky-900 underline
+    @apply text-sky-800 underline
 }
 
 .homepage_content ul {
@@ -15,11 +15,27 @@
 }
 
 .homepage_content li {
-    @apply leading-8 text-black/80 text-shadow-xs text-lg
+    @apply leading-8 text-black/80 text-shadow-xs text-base
 }
 
-.badge_markdown ul {
+svg {
+    @apply align-middle inline-block
+}
+
+.banner_markdown, .badge_markdown ul {
     @apply list-disc list-inside
+}
+
+.banner_markdown strong {
+    @apply text-amber-700 font-extrabold
+}
+
+.badge_markdown strong {
+    @apply font-extrabold
+}
+
+.badge_markdown svg {
+    @apply size-6 mr-0.5
 }
 
 footer a {

@@ -1,10 +1,10 @@
 baseURL: "https://perimenopavza.eu/"
 languageCode: "sl-si"
-title: "Perimenopavza in ajurveda"
+title: "PERIMENOPAVZA in AJURVEDA"
 params:
   colors:
     bg_class: "bg-gradient-to-r from-amber-100 via-lime-50 to-amber-100"
-    color_class: "amber-600"
+    color_class: "amber-700"
 build:
   buildStats:
     enable: true
@@ -21,5 +21,6 @@ module:
       source: hugo_stats.json
       target: assets/notwatching/hugo_stats.json
 copyright: |
-  <p>Spletno stran naredil <a href="https://markopejic.com" target="_blank">Marko Pejić</a></p>
-  <p>© 2025 Tina Rupnik Pejić</p>
+  Spletno stran naredil [Marko Pejić](https://markopejic.com)
+  
+  © 2025 Tina Rupnik Pejić

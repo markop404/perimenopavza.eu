@@ -35,26 +35,27 @@
     <div class="{{ default $bg_class .bg_class }} w-full min-h-screen items-center justify-center flex flex-col pb-5 px-5">
       {{ with .image }}
         <img
-          class="max-w-100"
+          class="max-w-110  "
           src="{{ (resources.Get (printf "images/%s" .filename) | resources.Minify).RelPermalink }}"
           fetchpriority="high"
           {{ with .alt }}alt="{{ . }}"{{ end }}
         >
       {{ end }}
-      <h1 class="font-extrabold text-center text-[2.5rem] text-black/80 text-shadow-lg mb-4 max-w-4xl leading-10">
+      <h1 class="font-extrabold text-center text-4xl text-{{ $color_class }} text-shadow-lg mb-4 max-w-4xl leading-10">
           {{ site.Title }}
       </h1>
-      {{ range .text }}
-        <p class="text-center py-1 max-w-4xl text-shadow-xs text-black/80 text-lg">
-          {{ . }}
-        </p>
+      {{ range .content }}
+        <span class="banner_markdown text-center py-1 max-w-4xl text-shadow-xs text-black/80 text-lg">
+          {{ cond .is_markdown (.text | markdownify) .text }}
+        </span>
       {{ end }}
       {{ with .badge }}
-        <div class="items-center justify-center flex flex-wrap mt-8 max-w-4xl">
+        <div class="items-center justify-center flex flex-col mt-8 max-w-4xl">
           {{ range . }}
             <span
-              class="mx-1.5 my-1 px-3 py-1.5 bg-{{ .color }}/20 text-black/80 border border-black/20 rounded-xl shadow-sm text-center badge_markdown text-lg"
+              class="badge_markdown mx-1.5 my-1 px-3 py-1.5 bg-{{ .color }}/20 text-black/80 border border-black/20 rounded-xl shadow-sm text-center text-lg"
             >
+              {{ with .icon}}{{ partial "svg.html" . }}{{ end }}
               {{ with .title }}<b>{{ . }}</b>:{{ end }}
               {{ cond .is_markdown (.text | markdownify) .text }}
             </span>
