@@ -8,6 +8,8 @@
 
 @theme {
   --font-sans: Inter;
+  --text-sm: 1rem;
+  --text-base: 1.0625rem;
   --animate-navbtnpulse: navpulse 1.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 
   @keyframes navpulse {

@@ -2,14 +2,14 @@ footer a {
   @apply text-sky-800 underline;
 }
 footer p {
-  @apply text-base text-shadow-xs text-black/60 leading-7;
+  @apply text-sm text-shadow-xs text-black/60 leading-7;
 }
 
 .homepage_markdown h3 {
   @apply font-bold text-2xl mt-10 mb-2 text-shadow-xs text-black/80;
 }
 .homepage_markdown p {
-  @apply mt-4 leading-8 text-shadow-xs text-black/80 text-[17px];
+  @apply mt-4 leading-8 text-shadow-xs text-black/80;
 }
 .homepage_markdown a {
   @apply text-sky-800 underline;
@@ -18,17 +18,7 @@ footer p {
   @apply list-disc pl-10 mt-1;
 }
 .homepage_markdown li {
-  @apply leading-8 text-black/80 text-shadow-xs text-base;
-}
-
-.banner_markdown p {
-  @apply leading-7 py-2;
-}
-.banner_markdown ul {
-  @apply list-disc list-inside;
-}
-.banner_markdown strong {
-  @apply font-extrabold;
+  @apply leading-8 text-black/80 text-shadow-xs;
 }
 
 .badge_markdown ul {

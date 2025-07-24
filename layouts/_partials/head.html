@@ -1,4 +1,4 @@
-{{ $title := site.Title}}
+{{ $title := site.Title }}
 {{ with .Params.title }}
   {{ $title = printf "%s | %s" . site.Title }}
 {{ end }}
