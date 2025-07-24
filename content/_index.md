@@ -14,39 +14,32 @@ banner:
     filename: "ayurveda.svg"
   content:
     - text: |
-        Si stara med 40 in 55 let?
-        
+        Si stara med 40 in 55 let?  
         Doživljaš spremembe, kot so neredne menstruacije, motnje spanja, nihanje razpoloženja, vročinski oblivi, utrujenost, težave s sečnim mehurjem, manjša zbranost ipd?
       is_markdown: true
     - text: |
-        **Vabim te k sodelovanju v raziskavi, kjer boš popolnoma brezplačno dobila:**
-        
-        {{< svg "24/outline/check" >}} Dragoceno znanje in podporo pri skrbi za svoje zdravje - s poudarkom na naravnem, nefarmakološkem pristopu,
-
-        {{< svg "24/outline/check" >}} Praktične nasvete in ajurvedske smernice, ki ti bodo pomagale k boljšemu počutju
-
+        **Vabim te k sodelovanju v raziskavi, kjer boš popolnoma brezplačno dobila:**  
+        {{< svg "heroicons/24/outline/check" >}}  Dragoceno znanje in podporo pri skrbi za svoje zdravje - s poudarkom na naravnem, nefarmakološkem pristopu,  
+        {{< svg "heroicons/24/outline/check" >}}  Praktične nasvete in ajurvedske smernice, ki ti bodo pomagale k boljšemu počutju
       is_markdown: true
   badge:
     - title: "Predavanja"
-      is_markdown: true
       color: "lime-300"
-      text: |
-        torek 24. 9., sreda 30. 9. in nedelja 5. 10. od 19:00 do 20:30
-      icon: "24/outline/presentation-chart-line"
-    - title: "Individualno svetovanje"
+      icon: "heroicons/24/outline/presentation-chart-line"
       is_markdown: true
-      icon: "24/outline/chat-bubble-left-right"
-      text: |
-        6\. - 31\. oktober 2025
+      text: "torek 24. 9., sreda 30. 9. in nedelja 5. 10. od 19:00 do 20:30"
+    - title: "Individualno svetovanje"
       color: "cyan-300"
+      icon: "heroicons/24/outline/chat-bubble-left-right"
+      text: "6. - 31. oktober 2025"
     - title: "Prijave do"
-      text: "5. september (število mest je omejeno)"
       color: "amber-300"
-      icon: "24/outline/calendar-days"
+      icon: "heroicons/24/outline/calendar-days"
+      text: "5. september (število mest je omejeno)"
     - title: "Kje"
-      text: "Prek spleta"
       color: "pink-300"
-      icon: "24/outline/globe-europe-africa"
+      icon: "heroicons/24/outline/globe-europe-africa"
+      text: "Prek spleta"
 
 sections:
   - title: "O raziskavi"
@@ -57,7 +50,7 @@ sections:
       - na zdravje in dobro počutje,
       - na zaznano samoučinkovitost pri obvladovanju zdravja.
 
-      ## Perimenopavza
+      ## {{< svg "openmoji/1fab7" >}} Perimenopavza
 
       Perimenopavza oziroma menopavzni prehod je naravno prehodno obdobje v življenju ženske, ki običajno nastopi med 40. in 50. letom starosti. Povprečno traja okoli 5 let, pri nekaterih ženskah lahko traja tudi 10 let. Začne se s prvimi spremembami v menstrualnem ciklu in se konča 12 mesecev po zadnji menstruaciji.
 
@@ -67,7 +60,7 @@ sections:
 
       Čeprav hormonska terapija predstavlja eno izmed možnosti zdravljenja, ni primerna za vse ženske. Vedno več je zanimanja za naravne, t. i. nefarmakološke pristope, vendar znanstvenih raziskav na tem področju še vedno primanjkuje.
 
-      ## Ajurveda
+      ## {{< svg "openmoji/1f96c" >}} Ajurveda
 
       Ajurveda velja za najstarejši medicinski sistem na svetu. Čeprav je nastala pred približno 5000 leti in na drugem koncu sveta, so njena globoka spoznanja o delovanju narave in človeka veljavna še danes, za kogarkoli in kjerkoli. Učinkovitost ajurvede priznava tudi Svetovna zdravstvena organizacija.
 
@@ -153,7 +146,7 @@ sections:
 
       ## Etična odobritev raziskave
 
-      Raziskava je bila pregledana in odobrena s strani Etične komisije Univerze Alma Mater Europaea, Slovenska ulica 17, 2000 Maribor.
+      Raziskava je bila pregledana in odobrena s strani Etične komisije Univerze Alma Mater Europaea, Slovenska ulica 17, 2000 Maribor, sklep 8/2024-25.
 
       ## Dostop do rezultatov raziskave
 
@@ -184,10 +177,10 @@ sections:
           pattern: "^(?:(?:\\+|00)386|0)(?:\\s?\\d{1,2}){7,8}$"
           required: false
     content: |
-      Vaše sodelovanje mi veliko pomeni in sem vam zanj iskreno hvaležna.
+      Vaše sodelovanje mi veliko pomeni in sem vam zanj iskreno hvaležna. {{< svg "openmoji/1f49a" >}}{{< svg "openmoji/1f49a" >}}{{< svg "openmoji/1f49a" >}}
 
       Z vašo pomočjo želim prispevati k boljšemu razumevanju, kako lahko ajurvedska priporočila podprejo žensko telo in duha v občutljivem življenjskem obdobju.
-      
+
       Vse zgoraj navedene informacije so namenjene temu, da se lahko za sodelovanje odločite varno in z zavedanjem vseh pomembnih vidikov.
 
       S prijavo izjavljate:

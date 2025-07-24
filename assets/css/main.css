@@ -1,6 +1,6 @@
 @import "tailwindcss";
 @import "fonts.css";
-@import "content.css";
+@import "markdown.css";
 
 @plugin "@tailwindcss/forms";
 
@@ -9,10 +9,16 @@
 @theme {
   --font-sans: Inter;
   --animate-navbtnpulse: navpulse 1.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-  
+
   @keyframes navpulse {
     50% {
       opacity: 80%;
     }
+  }
+}
+
+@layer base {
+  svg {
+    @apply align-middle inline-block h-[1.4em]
   }
 }
