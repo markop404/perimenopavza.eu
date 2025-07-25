@@ -9,7 +9,7 @@
     {{ $normal_btn_class := (printf "%s px-4 py-3 bg-%s hover:bg-%s" $base_btn_class .Params.navbar.colors.btn_clr_class .Params.navbar.colors.btn_active_clr_class) }}
     {{ $icon_btn_class := (printf "%s px-3.25 py-2.25 bg-%s hover:bg-%s" $base_btn_class .Params.navbar.colors.btn_clr_class .Params.navbar.colors.btn_active_clr_class) }}
     <nav 
-      class="fixed bottom-0 w-full bg-black/30 backdrop-blur-xs border-t border-black/15 flex flex-wrap items-center justify-center p-1 shadow-[0_-8px_16px_rgba(0,0,0,0.2)]"
+      class="fixed bottom-0 w-full bg-black/30 backdrop-blur-xs border-t border-black/15 flex flex-wrap justify-center p-1 shadow-[0_-8px_16px_rgba(0,0,0,0.2)]"
     >
       {{ range .Params.sections }}
         {{ if not .exclude_from_navbar }}
@@ -53,17 +53,13 @@
           {{ end }}
         </div>
       {{ end }}
-      {{ with .badge }}
-        <div class="items-center justify-center flex flex-col max-w-4xl">
-          {{ range . }}
-            <div
-              class="badge_markdown mx-1.5 my-1 px-3 py-1.5 bg-{{ .color }}/20 text-black/80 border border-black/20 rounded-xl shadow-sm text-center"
-            >
-              {{ with .icon }}<span class="mr-1">{{ partial "svg.html" . }}</span>{{ end }}
-              {{ with .title }}<b>{{ . }}</b>:{{ end }}
-              {{ cond .is_markdown (.text | markdownify) .text }}
-            </div>
-          {{ end }}
+      {{ range .badge }}
+        <div
+          class="max-w-4xl my-1 px-3 py-1.5 bg-{{ .color }}/20 border border-black/20 rounded-xl shadow-sm text-black/80 text-center flex flex-wrap justify-center items-center gap-x-2"
+        >
+          {{ with .icon }}{{ partial "svg.html" . }}{{ end }}
+          {{ with .title }}<span><strong>{{ . }}</strong>:</span>{{ end }}
+          {{ with .text }}<span class="badge_markdown">{{ . | markdownify }}</span>{{ end }}
         </div>
       {{ end }}
     </div>
@@ -74,10 +70,10 @@
   <div class="{{ $bg_class }} px-5">
     {{ range .Params.sections }}
       <section id="{{ .title | anchorize }}" class="max-w-4xl mx-auto pt-40">
-        <h2 class="font-bold text-center text-4xl text-shadow-sm">
+        <h2 class="font-bold text-center text-4xl text-shadow-sm text-black/80">
           {{ .title }}
         </h2>
-        <div class="bg-{{ $color_class }} h-0.5 w-20 rounded-sm mt-5 mb-14 mx-auto"></div>
+        <div class="bg-{{ $color_class }}/80 h-0.5 w-20 rounded-sm mt-5 mb-14 mx-auto"></div>
         <div class="homepage_markdown">
           {{ .content | markdownify }}
         </div>

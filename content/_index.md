@@ -16,26 +16,23 @@ banner:
     - text: |
         Si stara med 40 in 55 let?  
         Doživljaš spremembe, kot so neredne menstruacije, motnje spanja, nihanje razpoloženja, vročinski oblivi, utrujenost, težave s sečnim mehurjem, manjša zbranost ipd?
-      is_markdown: true
     - text: |
         **Vabim te k sodelovanju v raziskavi, kjer boš popolnoma brezplačno dobila:**  
         {{< svg "heroicons/24/outline/check" >}}  Dragoceno znanje in podporo pri skrbi za svoje zdravje - s poudarkom na naravnem, nefarmakološkem pristopu,  
         {{< svg "heroicons/24/outline/check" >}}  Praktične nasvete in ajurvedske smernice, ki ti bodo pomagale k boljšemu počutju
-      is_markdown: true
   badge:
     - title: "Predavanja"
       color: "lime-300"
       icon: "heroicons/24/outline/presentation-chart-line"
-      is_markdown: true
       text: "torek 24. 9., sreda 30. 9. in nedelja 5. 10. od 19:00 do 20:30"
     - title: "Individualno svetovanje"
       color: "cyan-300"
       icon: "heroicons/24/outline/chat-bubble-left-right"
-      text: "6. - 31. oktober 2025"
+      text: "6\\. - 31. oktober 2025"
     - title: "Prijave do"
       color: "amber-300"
       icon: "heroicons/24/outline/calendar-days"
-      text: "5. september (število mest je omejeno)"
+      text: "5\\. september (število mest je omejeno)"
     - title: "Kje"
       color: "pink-300"
       icon: "heroicons/24/outline/globe-europe-africa"
