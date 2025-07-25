@@ -193,6 +193,6 @@ sections:
 
       Če imate vprašanja v zvezi z raziskavo, mi lahko pišete ali me pokličete:
 
-      **E-pošta**: [](mailto://tinarupnikpejic@gmail.com)  
-      **Tel**: [069 421 418](tel://+38669421418)
+      **E-pošta**: [](mailto:tinarupnikpejic@gmail.com)  
+      **Tel**: [069 421 418](tel:+38669421418)
 ---
