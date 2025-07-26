@@ -6,10 +6,10 @@ footer p {
 }
 
 .homepage_markdown h3 {
-  @apply font-bold text-2xl pt-10 pb-2 text-shadow-xs text-black/80;
+  @apply font-bold text-2xl pt-10 pb-2 text-shadow-xs;
 }
 .homepage_markdown p {
-  @apply pt-4 leading-8 text-shadow-xs text-black/80;
+  @apply pt-4 leading-8 text-shadow-xs;
 }
 .homepage_markdown a {
   @apply text-sky-800 underline;
@@ -18,7 +18,7 @@ footer p {
   @apply list-disc pl-10 pt-1;
 }
 .homepage_markdown li {
-  @apply leading-8 text-black/80 text-shadow-xs;
+  @apply leading-8 text-shadow-xs;
 }
 
 .badge_markdown ul {
