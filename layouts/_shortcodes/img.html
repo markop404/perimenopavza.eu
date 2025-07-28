@@ -1,0 +1,17 @@
+{{- $src := printf "images/%s" (.Get "src") -}}
+{{- with or (resources.Get $src) ($.Page.Resources.Get $src) -}}
+  {{- $src = .RelPermalink -}}
+{{- end -}}
+
+{{- $class := "" -}}
+{{- with (.Get "float") -}}
+  {{- if eq . "left" -}}
+    {{- $class = "md:float-left md:mr-6" -}}
+  {{- else if eq . "right" -}}
+    {{- $class = "md:float-right md:ml-6" -}}
+  {{- end -}}
+{{- end -}}
+
+<img src="{{ $src | safeURL }}" class="{{ $class }}" width="{{ default "300px" (.Get "width") }}"
+  {{- with .Get "title" }} title="{{ . }}" alt="{{ . }}"{{ end -}}
+>

@@ -189,10 +189,12 @@ sections:
 
   - title: "Kontakt"
     content: |
+      {{< img src="tina.webp" width="200px" float="left" title="Tina Rupnik Pejić" >}}
+
       Raziskavo **vodim Tina Rupnik Pejić**, certificirana svetovalka Maharishi Ayurvede pod mentorstvom asist. prof. dr. Gordane Marković na **univerzi Alma Mater Europea** Maribor, smer Integrativne zdravstvene vede.
 
       Če imate vprašanja v zvezi z raziskavo, mi lahko pišete ali me pokličete:
 
       **E-pošta**: [](mailto:tinarupnikpejic@gmail.com)  
-      **Tel**: [069 421 418](tel:+38669421418)
+      **Telefon**: [069 421 418](tel:+38669421418)
 ---
