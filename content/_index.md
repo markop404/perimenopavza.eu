@@ -1,17 +1,17 @@
 ---
-og_title: "Preproste ajurvedske rešitve za boljše počutje - trimesečni program s praktičnimi usmeritvami"
-description: "Preproste ajurvedske rešitve za boljše počutje - trimesečni program s praktičnimi usmeritvami"
+og_title: Preproste ajurvedske rešitve za boljše počutje - trimesečni program s praktičnimi usmeritvami
+description: Preproste ajurvedske rešitve za boljše počutje - trimesečni program s praktičnimi usmeritvami
 og_image:
-  filename: "ayurveda.png"
+  filename: ayurveda.png
 navbar:
   enabled: true
   colors:
-    btn_clr_class: "orange-200"
-    btn_active_clr_class: "amber-100"
+    btn_clr_class: orange-200
+    btn_active_clr_class: amber-100
 
 banner:
   image:
-    filename: "ayurveda.svg"
+    filename: ayurveda.svg
   content:
     - text: |
         Si stara med 40 in 55 let?  
@@ -21,25 +21,25 @@ banner:
         {{< svg "heroicons/24/outline/check" >}}  Dragoceno znanje in podporo pri skrbi za svoje zdravje - s poudarkom na naravnem, nefarmakološkem pristopu,  
         {{< svg "heroicons/24/outline/check" >}}  Praktične nasvete in ajurvedske smernice, ki ti bodo pomagale k boljšemu počutju
   badge:
-    - title: "Predavanja"
-      color: "lime-300"
-      icon: "heroicons/24/outline/presentation-chart-line"
-      text: "torek 24. 9., sreda 30. 9. in nedelja 5. 10. od 19:00 do 20:30"
-    - title: "Individualno svetovanje"
-      color: "cyan-300"
-      icon: "heroicons/24/outline/chat-bubble-left-right"
-      text: "6\\. - 31. oktober 2025"
-    - title: "Prijave do"
-      color: "amber-300"
-      icon: "heroicons/24/outline/calendar-days"
-      text: "5\\. september (število mest je omejeno)"
-    - title: "Kje"
-      color: "pink-300"
-      icon: "heroicons/24/outline/globe-europe-africa"
-      text: "Prek spleta"
+    - title: Predavanja
+      color: lime-300
+      icon: heroicons/24/outline/presentation-chart-line
+      text: torek 24. 9., sreda 30. 9. in nedelja 5. 10. od 19:00 do 20:30
+    - title: Individualno svetovanje
+      color: cyan-300
+      icon: heroicons/24/outline/chat-bubble-left-right
+      text: 6\. - 31. oktober 2025
+    - title: Prijave do
+      color: amber-300
+      icon: heroicons/24/outline/calendar-days
+      text: 5\. september (število mest je omejeno)
+    - title: Kje
+      color: pink-300
+      icon: heroicons/24/outline/globe-europe-africa
+      text: Prek spleta
 
 sections:
-  - title: "O raziskavi"
+  - title: O raziskavi
     content: |
       Raziskava z naslovom **Vpliv intervencije ajurvedskega življenjskega sloga na kakovost življenja in zdravstveno samoučinkovitost žensk v perimenopavzi** poteka v okviru magistrskega študija integrativnih zdravstvenih ved na univerzi Alma Mater Europea. Njen namen je ovrednotiti učinke ajurvedskega življenjskega sloga na kakovost življenja žensk v času perimenopavze, pri čemer se osredotoča na vpliv:
 
@@ -65,7 +65,7 @@ sections:
 
       Na podlagi teh izhodišč ta raziskava želi ovrednotiti ajurvedski življenjski slog kot dopolnilni pristop k obvladovanju perimenopavzalnih simptomov. **Z naslavljanjem temeljnih vzrokov neravnovesja namesto posameznih simptomov ajurveda predstavlja dragocen pristop k izboljšanju kakovosti življenja v času perimenopavze.**
 
-  - title: "Potek raziskave in vsebina predavanj"
+  - title: Potek raziskave in vsebina predavanj
     content: |
       Raziskava bo trajala 3 mesece, od 24. septembra do 23. decembra 2025.
 
@@ -104,7 +104,7 @@ sections:
 
       **Po treh mesecih** (23. decembra) bodo udeleženke prejele enak vprašalnik kot na začetku, tokrat z dodatnimi tremi kratkimi vprašanji kvalitativnega tipa. Udeleženke lahko v primeru kakršnekoli dodatne potrebe, ki bi se pojavila med raziskavo, [kontaktirajo izvajalko raziskave Tino Rupnik Pejić](#kontakt).
 
-  - title: "Kdo lahko sodeluje"
+  - title: Kdo lahko sodeluje
     content: |
       V raziskavi lahko sodelujejo ženske, ki izpolnjujejo naslednje pogoje:
 
@@ -124,7 +124,7 @@ sections:
 
       Sodelovanje je povsem prostovoljno. Udeleženke lahko sodelovanje kadarkoli prekinejo brez kakršnih koli posledic ali pojasnil.
 
-  - title: "Drugo"
+  - title: Drugo
     exclude_from_navbar: true
     content: |
       ## Zagotavljanje anonimnosti in varstvo podatkov
@@ -149,29 +149,29 @@ sections:
 
       Po zaključku raziskave bodo udeleženkam na voljo **splošni rezultati** raziskave v povzetku, ki ne bo vključeval nobenih osebnih podatkov ali individualno prepoznavnih informacij. Če bodo rezultati raziskave pozitivni, je cilj ugotovitve širše predstaviti, in sicer prek strokovnih objav in predstavitev na konferencah.
 
-  - title: "Prijavi se"
+  - title: Prijavi se
     highlight: true
     form:
-      name: "Prijava na raziskavo o perimenopavzi"
+      name: Prijava na raziskavo o perimenopavzi
       netlify: true
-      submit_btn_text: "Pošlji prijavo"
+      submit_btn_text: Pošlji prijavo
       fields:
-        - name: "name"
-          pretty_name: "Ime in priimek"
-          placeholder: "Maja Novak"
-          pattern: "^[\\p{L}]+(?:[.'-][\\p{L}]+)*\\s+[\\p{L}]+(?:[.'-][\\p{L}]+)*(?:\\s+[\\p{L}]+(?:[.'-][\\p{L}]+)*)*$"
+        - name: name
+          pretty_name: Ime in priimek
+          placeholder: Maja Novak
+          pattern: ^[\p{L}]+(?:[.'-][\p{L}]+)*\s+[\p{L}]+(?:[.'-][\p{L}]+)*(?:\s+[\p{L}]+(?:[.'-][\p{L}]+)*)*$
           required: true
-        - name: "email"
-          type: "email"
-          pretty_name: "E-pošta"
-          placeholder: "maja.novak@gmail.com"
-          pattern: "^[a-zA-Z0-9._%\\-\\+]+@[a-zA-Z0-9.\\-]+\\.[a-zA-Z]{2,}$"
+        - name: email
+          type: email
+          pretty_name: E-pošta
+          placeholder: maja.novak@gmail.com
+          pattern: ^[a-zA-Z0-9._%\-\+]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$
           required: true
-        - name: "tel"
-          type: "tel"
-          pretty_name: "Telefon"
-          placeholder: "041 321 987"
-          pattern: "^(?:(?:\\+|00)386|0)(?:\\s?\\d{1,2}){7,8}$"
+        - name: tel
+          type: tel
+          pretty_name: Telefon
+          placeholder: 041 321 987
+          pattern: ^(?:(?:\+|00)386|0)(?:\s?\d{1,2}){7,8}$
           required: false
     content: |
       Vaše sodelovanje mi veliko pomeni in sem vam zanj iskreno hvaležna. {{< svg "openmoji/1f49a" >}}{{< svg "openmoji/1f49a" >}}{{< svg "openmoji/1f49a" >}}
@@ -187,7 +187,7 @@ sections:
       -	da se zavedate možnosti prekinitve sodelovanja kadarkoli brez posledic,
       -	da soglašate z uporabo svojih odgovorov v anonimni obliki izključno za raziskovalne namene
 
-  - title: "Kontakt"
+  - title: Kontakt
     content: |
       {{< img src="tina.webp" width="200px" float="left" title="Tina Rupnik Pejić" >}}
 

@@ -1,10 +1,11 @@
 {{ define "main" }}
   <div class="{{ site.Params.colors.bg_class }} w-full min-h-screen items-center justify-center flex flex-col">
-    <h1 class="font-extrabold text-center text-[2.5rem] text-shadow-lg max-w-4xl">
-      Ta stran ne obstaja :(
+    <h1 class="font-extrabold text-center text-[2.5rem] text-shadow-lg max-w-4xl mb-5">
+      {{- site.Params.not_found.title -}}
     </h1>
-    <p class="text-shadow-xs">
-      Vrni se na <a href="{{ .Site.Home.RelPermalink }}" class="text-sky-900 underline"> domačo stran</a>.
-    </p>
+    {{- $btn_class := printf "font-semibold rounded-lg transition leading-none shadow-sm/25 border border-black/30 text-center focus-visible:border-%[1]s/70 focus-visible:ring-2 focus-visible:ring-%[1]s/60 outline-none px-3 py-2 bg-%[1]s/25 hover:bg-%[1]s/20" site.Params.colors.color_class -}}
+    <a href="{{ .Site.Home.Permalink }}" class="{{ $btn_class }}">
+      <span class="mr-2">{{- partial "svg.html" "heroicons/24/outline/arrow-uturn-left" }}</span>{{ site.Params.not_found.btn_text -}}
+    </a>
   </div>
 {{ end }}

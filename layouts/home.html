@@ -4,8 +4,8 @@
 
   <!-- Nav bar -->
   {{ if .Params.navbar.enabled }}
-    {{ $base_btn_class := printf "font-semibold text-sm m-1 rounded-lg transition leading-none shadow-sm/25 border border-black/30 text-center focus-visible:border-%s focus-visible:ring-2 focus-visible:ring-%s/60 outline-none" $color_class }}
-    {{ $highlighted_btn_class := (printf "%s px-4 py-3 animate-navbtnpulse hover:animate-none bg-%s" $base_btn_class .Params.navbar.colors.btn_active_clr_class) }}
+    {{ $base_btn_class := printf "font-semibold text-sm m-1 rounded-lg transition leading-none shadow-sm/25 border border-black/30 text-center focus-visible:border-%[1]s/80 focus-visible:ring-2 focus-visible:ring-%[1]s/60 outline-none" $color_class }}
+    {{ $highlighted_btn_class := (printf "%s px-4 py-3 animate-btnpulse hover:animate-none bg-%s" $base_btn_class .Params.navbar.colors.btn_active_clr_class) }}
     {{ $normal_btn_class := (printf "%s px-4 py-3 bg-%s hover:bg-%s" $base_btn_class .Params.navbar.colors.btn_clr_class .Params.navbar.colors.btn_active_clr_class) }}
     {{ $icon_btn_class := (printf "%s px-3.25 py-2.25 bg-%s hover:bg-%s" $base_btn_class .Params.navbar.colors.btn_clr_class .Params.navbar.colors.btn_active_clr_class) }}
     <nav 

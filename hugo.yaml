@@ -1,10 +1,17 @@
-baseURL: "https://perimenopavza.eu/"
-languageCode: "sl-si"
-title: "PERIMENOPAVZA in AJURVEDA"
+baseURL: https://perimenopavza.eu/
+languageCode: sl-si
+title: PERIMENOPAVZA in AJURVEDA
 params:
   colors:
-    bg_class: "bg-gradient-to-r from-amber-100 via-lime-50 to-amber-100"
-    color_class: "amber-700"
+    bg_class: bg-gradient-to-r from-amber-100 via-lime-50 to-amber-100
+    color_class: amber-700
+  not_found:
+    title: Ta stran ne obstaja :(
+    btn_text: Na domačo stran
+  footer:
+    enabled: true
+    content: Spletno stran naredil [Marko Pejić](https://markopejic.com)
+copyright: © 2025 Tina Rupnik Pejić
 build:
   buildStats:
     enable: true
@@ -20,7 +27,3 @@ module:
     - disableWatch: true
       source: hugo_stats.json
       target: assets/notwatching/hugo_stats.json
-copyright: |
-  Spletno stran naredil [Marko Pejić](https://markopejic.com)
-  
-  © 2025 Tina Rupnik Pejić
