@@ -1,6 +1,6 @@
 {{ define "main" }}
   <div class="{{ site.Params.colors.bg_class }} w-full min-h-screen items-center justify-center flex flex-col px-5">
-    <h1 class="font-extrabold text-center text-4xl text-shadow-lg max-w-4xl mb-5">
+    <h1 class="font-extrabold text-center text-4xl text-shadow-lg max-w-4xl mb-7">
       {{- site.Params.not_found.title -}}
     </h1>
     {{- $btn_class := printf "font-semibold rounded-lg transition leading-none shadow-sm/25 border border-black/30 text-center focus-visible:border-%[1]s/70 focus-visible:ring-2 focus-visible:ring-%[1]s/60 outline-none px-3 py-2 bg-%[1]s/25 hover:bg-%[1]s/20" site.Params.colors.color_class -}}
