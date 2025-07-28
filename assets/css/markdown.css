@@ -21,7 +21,7 @@ footer p {
   @apply leading-8 text-shadow-xs;
 }
 .homepage_markdown img {
-  @apply mt-6 rounded-2xl
+  @apply mt-6 mb-2 rounded-2xl
 }
 
 .badge_markdown ul {
