@@ -1,3 +1,3 @@
-# <a href="https://perimenopavza.eu" target="_blank">perimenopavza.eu</a>
+# [perimenopavza.eu](https://perimenopavza.eu)
 
 Website made using Hugo, tailwindcss and Alpine.js, hosted on Netlify 
