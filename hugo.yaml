@@ -10,7 +10,7 @@ params:
     btn_text: Na domačo stran
   footer:
     enabled: true
-    content: Spletno stran naredil [Marko Pejić](https://markopejic.com)
+    content: "[Spletno stran](https://github.com/markop404/perimenopavza.eu) naredil [Marko Pejić](https://markopejic.com)"
 copyright: © 2025 Tina Rupnik Pejić
 build:
   buildStats:
