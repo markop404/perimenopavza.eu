@@ -24,7 +24,7 @@ banner:
     - title: Predavanja
       color: lime-300
       icon: heroicons/24/outline/presentation-chart-line
-      text: torek 24. 9., sreda 30. 9. in nedelja 5. 10. od 19:00 do 20:30
+      text: sreda 24. 9., torek 30. 9. in nedelja 5. 10. od 19:00 do 20:30
     - title: Individualno svetovanje
       color: cyan-300
       icon: heroicons/24/outline/chat-bubble-left-right
